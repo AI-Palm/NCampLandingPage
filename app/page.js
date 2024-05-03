@@ -10,9 +10,6 @@ export default function Home() {
     <div>
       <Header />
       <Footer />
-
-      NCAMP
-      <Button>Click me</Button>
       <Section3></Section3>
     </div>
   );
