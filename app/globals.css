@@ -130,18 +130,18 @@
   
   @media (min-width: 768px) {
     .header-content {
-      padding-top: 2rem; /* Example spacing for medium screens and above */
+      padding-top: 1.5rem; /* Example spacing for medium screens and above */
     }
   }
   
   @media (min-width: 1024px) {
     .header-content {
-      padding-top: 2rem; /* Example spacing for large screens and above */
+      padding-top: 1.5rem; /* Example spacing for large screens and above */
     }
   }
   
   @media (min-width: 1280px) {
     .header-content {
-      padding-top: 3rem; /* Example spacing for extra-large screens and above */
+      padding-top: 3  rem; /* Example spacing for extra-large screens and above */
     }
   }
