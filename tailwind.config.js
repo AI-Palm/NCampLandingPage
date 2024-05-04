@@ -77,6 +77,10 @@ module.exports = {
       fontFamily: {
         sans: [ ...fontFamily.sans],
       },
+      fontSize: {
+        xss: ['8px', '9.5px'],
+        
+      }
     },
   },
   plugins: [require("tailwindcss-animate")],
