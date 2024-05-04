@@ -1,12 +1,9 @@
-import Image from "next/image";
-import { Button } from "@/components/ui/button"
+import Mentors from "./mentors/Mentors";
 
 export default function Home() {
   return (
     <div>
-      NCAMP
-      <Button>Click me</Button>
-
+      <Mentors />
     </div>
   );
 }

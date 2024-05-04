@@ -1,0 +1,13 @@
+.mentors {
+  width: 100%;
+  padding-left: 28%;
+  padding-right: 28%;
+}
+
+@media only screen and (max-width: 480px) {
+  .mentors {
+    width: 100%;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+}
