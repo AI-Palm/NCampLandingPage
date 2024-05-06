@@ -1,5 +1,6 @@
 import { Inter as FontSans } from "next/font/google"
 import "./globals.css";
+import Provider from "@/components/Provider";
 
 import { cn } from "@/lib/utils"
 
@@ -19,11 +20,19 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         className={cn(
-          "min-h-screen bg-black font-sans antialiased",
+          "min-h-screen bg-background font-sans antialiased",
           fontSans.variable
         )}
       >
-        {children}
+        <Provider>
+          <div className='main'>
+            <div className='gradient' />
+          </div>
+
+          <main className='app'>
+            {children}
+          </main>
+        </Provider>
       </body>
     </html>
   );
