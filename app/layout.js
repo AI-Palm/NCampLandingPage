@@ -18,10 +18,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-    <body
-    
+      <body
         className={cn(
-          "min-h-screen bg-background font-sans antialiased",
+          "min-h-screen bg-black font-sans antialiased",
           fontSans.variable
         )}
       >        
@@ -30,11 +29,11 @@ export default function RootLayout({ children }) {
                     <div className='' />
                 </div>
 
-                <main className='app'> 
-                    {children}
-                </main>
-      </Provider>
-    </body>
+          <main className='app'>
+            {children}
+          </main>
+        </Provider>
+      </body>
     </html>
   );
 }
