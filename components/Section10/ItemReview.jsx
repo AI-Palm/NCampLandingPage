@@ -1,5 +1,3 @@
-import "../mentors/style.css";
-
 export default function ItemReview({ index }) {
     return (
         <div className="flex items-center mt-[50px] mx-[54px]">

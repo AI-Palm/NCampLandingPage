@@ -23,12 +23,8 @@ export default function RootLayout({ children }) {
           "min-h-screen bg-black font-sans antialiased",
           fontSans.variable
         )}
-      >        
-      <Provider>
-                <div className='main'>
-                    <div className='' />
-                </div>
-
+      >
+        <Provider>
           <main className='app'>
             {children}
           </main>
