@@ -18,7 +18,7 @@ function Section4() {
         <p>강사진 소개</p>
       </div>
       <div ref={ref} className=" shrink-0 m-auto">
-        <div className="w-[692px] container grid grid-cols-2 gap-12 h-auto m-auto">
+        <div className="w-[692px] container grid grid-cols-2 gap-24 h-auto m-auto">
           <div
             className="w-[322.76px] relative flex flex-col
           "
@@ -42,7 +42,7 @@ function Section4() {
               />
             </div>
             <div className="">
-              <div className="text-center text-white text-3xl font-normal">
+              <div className="text-center text-white text-3xl font-normal mb-6">
                 엄진영 강사님
               </div>
             </div>
@@ -96,7 +96,7 @@ function Section4() {
               />
             </div>
             <div className="">
-              <div className="text-center text-white text-3xl font-normal">
+              <div className="text-center text-white text-3xl font-normal mb-6">
               강요천 강사님
               </div>
             </div>
@@ -143,7 +143,7 @@ function Section4() {
               />
             </div>
             <div className="">
-              <div className="text-center text-white text-3xl font-normal">
+              <div className="text-center text-white text-3xl font-normal mb-6">
               김영진 강사님
               </div>
             </div>
@@ -181,7 +181,7 @@ function Section4() {
               />
             </div>
             <div className="">
-              <div className="text-center text-white text-3xl font-normal">
+              <div className="text-center text-white text-3xl font-normal mb-6">
               고기천 강사님
               </div>
             </div>
@@ -225,7 +225,7 @@ function Section4() {
               />
             </div>
             <div className="">
-              <div className="text-center text-white text-3xl font-normal">
+              <div className="text-center text-white text-3xl font-normal mb-6">
               문상환 강사님
               </div>
             </div>
@@ -267,7 +267,7 @@ function Section4() {
               />
             </div>
             <div className="">
-              <div className="text-center text-white text-3xl font-normal">
+              <div className="text-center text-white text-3xl font-normal mb-6">
               박정관 강사님
               </div>
             </div>

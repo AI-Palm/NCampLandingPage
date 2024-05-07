@@ -104,125 +104,23 @@ function Section3() {
       {/* direction bar */}
       <div className="">
         <button className="w-[500px] h-[76px]  bg-[#FF9900] justify-center shrink-0 flex flex-row gap-8  items-center rounded-full">
-        <p className="text-white text-center text-3xl font-normal not-italic">
-          수료생 프로젝트 보러가기
-        </p>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="23"
-          height="27"
-          viewBox="0 0 23 27"
-          fill="none"
-        >
-          <path
-            d="M23 13.5L0.500001 26.0574L0.500002 0.942631L23 13.5Z"
-            fill="white"
-          />
-        </svg>
+          <p className="text-white text-center text-3xl font-normal not-italic">
+            수료생 프로젝트 보러가기
+          </p>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="23"
+            height="27"
+            viewBox="0 0 23 27"
+            fill="none"
+          >
+            <path
+              d="M23 13.5L0.500001 26.0574L0.500002 0.942631L23 13.5Z"
+              fill="white"
+            />
+          </svg>
         </button>
-        
       </div>
-
-      <section className="">
-        <motion.div
-          className="flex flex-col gap-3 justify-center items-center"
-          initial={{ opacity: 0, x: -100 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.5 }}
-        >
-          <motion.img
-            src="/anh1.png"
-            width={400}
-            height={300}
-            alt=""
-            className="relative overflow-hidden"
-          ></motion.img>
-        </motion.div>
-        <motion.div
-          className="relative flex flex-col gap-3 justify-center items-center"
-          initial="hidden"
-          ref={ref}
-          animate={control}
-          variants={boxVariant}
-        >
-          <motion.img
-            src="/anh1.png"
-            width={400}
-            height={300}
-            alt=""
-            className=""
-          ></motion.img>
-        </motion.div>
-        <motion.div
-          className="flex flex-col gap-3 justify-center items-center"
-          initial={{ opacity: 0, x: -100 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.5 }}
-        >
-          <motion.img
-            src="/anh1.png"
-            width={400}
-            height={300}
-            alt=""
-            className="relative overflow-hidden"
-          ></motion.img>
-        </motion.div>
-        <motion.div
-          className="flex flex-col gap-3 justify-center items-center"
-          initial={{ opacity: 0, x: -100 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.5 }}
-        >
-          <motion.img
-            src="/anh1.png"
-            width={400}
-            height={300}
-            alt=""
-            className="relative overflow-hidden"
-          ></motion.img>
-        </motion.div>
-        <motion.div
-          className="flex flex-col gap-3 justify-center items-center"
-          initial={{ opacity: 0, x: -100 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.5 }}
-        >
-          <motion.img
-            src="/anh1.png"
-            width={400}
-            height={300}
-            alt=""
-            className="relative overflow-hidden"
-          ></motion.img>
-        </motion.div>
-      </section>
-      <section ref={ref}>
-        <span
-          className="opacity-0 translate-x-28 block"
-          style={{
-            transform: inView ? "none" : "translateX(-200px)",
-            opacity: inView ? 1 : 0,
-            transition: " 0.5s",
-          }}
-        >
-          <motion.img
-            src="/anh1.png"
-            width={400}
-            height={300}
-            alt=""
-            className="relative overflow-hidden"
-          ></motion.img>
-        </span>
-      </section>
-      <motion.div>
-        <motion.img
-          src="/next.svg"
-          width={400}
-          height={200}
-          alt=""
-          className=""
-        ></motion.img>
-      </motion.div>
     </div>
   );
 }

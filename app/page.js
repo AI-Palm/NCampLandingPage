@@ -8,6 +8,8 @@ import Section4 from "@/components/ui/Section4";
 import Mentors from "./mentors/Mentors";
 import RecruitmentProcess from "./recruitmentProcess/RecruitmentProcess";
 import Reviews from "./reviews/Reviews";
+import Section6 from "@/components/ui/Section6";
+import Section7 from "@/components/ui/Section7";
 
 export default function Home() {
   return (
@@ -18,8 +20,9 @@ export default function Home() {
       <Reviews />
       <Footer />
       <Section3></Section3>
-      <Slider/>
-      <Section4/>
+      <Section4 />
+      <Section6></Section6>
+      <Section7 />
     </div>
   );
 }
