@@ -4,7 +4,7 @@
   padding-right: 28%;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 992px) {
   .mentors {
     width: 100%;
     padding-left: 4%;
