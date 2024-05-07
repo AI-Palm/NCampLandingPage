@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import AtmCard from "@/public/images/atm-card.png"
+import ArrowIcon from "@/public/icons/arrow-icon.png"
 
 const Section12 = () => {
   return (
@@ -10,24 +11,36 @@ const Section12 = () => {
                 <h1 className='text-white text-4xl mb-8 font-extrabold'>신청방법</h1>
                 <p className='text-white font-extrabold mb-8'><span className='text-orange-200 font-extrabold'>국민내일배움카드 소지자는</span> 교육비 전액 무료 지원<br />
                     <span className='text-orange-200 font-extrabold'>매월</span> 지원훈련 장려금도 지급</p>
-                <div className='flex flex-row justify-center '>
-                    <div className='flex flex-col justify-center items-center'>
-                        <div className="rounded-full bg-white px-6 py-8  m-4">
-                            <div className="text-center text-orange-400">STEP 01 <br /> 수강신청</div>
+                <div className='flex  flex-wrap md:flex-row justify-center w-auto m-4 '>
+                    <div className='flex flex-col justify items-center'>
+                        <div className='flex flex-row items-center'>
+                            <div className="rounded-full bg-white px-6 py-8  my-4 ml-4">
+                                <div className="text-center text-orange-400">STEP 01 <br /> 수강신청</div>
+                            </div>
+                            <Image src={ArrowIcon} alt="arrow" width={28} height={1} className="m-0" />
                         </div>
                         <span className='text-white'>신청사이트 <br /> 수강신청</span>
+                        
                     </div>
-
+                    
                     <div className='flex flex-col justify-center items-center'>
-                        <div className="rounded-full bg-white px-6 py-8 m-4">
-                            <div className="text-center text-orange-400">STEP 02 <br /> 수강신청</div>
+                        <div className='flex flex-row items-center'>
+                            <div className="rounded-full bg-white px-6 py-8 my-4 ml-4">
+                                <div className="text-center text-orange-400">STEP 02 <br /> 수강신청</div>
+                            </div>
+                            <Image src={ArrowIcon} alt="arrow" width={28} height={1} className="m-0" />
+
                         </div>
                         <span className='text-white'>서류 전형 및<br />사전테스트</span>
                     </div>
 
                     <div className='flex flex-col justify-center items-center'>
-                        <div className="rounded-full bg-white px-6 py-8  m-4">
-                            <div className="text-center text-orange-400">STEP 03 <br /> 수강신청</div>
+                        <div className='flex flex-row items-center'>
+                            <div className="rounded-full bg-white px-6 py-8  my-4 ml-4">
+                                <div className="text-center text-orange-400">STEP 03 <br /> 수강신청</div>
+                            </div>
+                            <Image src={ArrowIcon} alt="arrow" width={28} height={1} className="m-0" />
+
                         </div>
                         <span className='text-white'>면접전형 및 <br/> 인성검사</span>
                     </div>
