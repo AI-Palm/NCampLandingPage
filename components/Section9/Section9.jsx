@@ -1,8 +1,6 @@
-import "../mentors/style.css";
-
-export default function RecruitmentProcess() {
+export default function Section9() {
     return (
-        <div className="mentors mt-[100px]">
+        <div className="main mt-[100px]">
             <div className="text-white text-[50px] font-bold leading-normal text-center">커리어의 시작<br />글로벌 하게</div>
             <div className="flex flex-col items-center mt-11 px-[54px] pt-[43px] pb-[50px] bg-[#ff9900] rounded-[50px]">
                 <div className="text-white text-center text-[25px] font-normal leading-[35px]">aws캠프에서는<br />일본 IT기업 CAL 취업연계가 가능해요</div>

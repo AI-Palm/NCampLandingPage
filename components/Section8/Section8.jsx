@@ -1,8 +1,6 @@
-import "./style.css";
-
-export default function Mentors() {
+export default function Section8() {
     return (
-        <div className="mentors">
+        <div className="main">
             <div className="flex-1 flex-col justify-center">
                 <div className="text-center text-white text-5xl font-bold leading-normal">취업한 선배 수료생들과의</div>
                 <div className="text-center text-[#ff9900] text-5xl font-bold leading-normal">1:1 멘토링</div>

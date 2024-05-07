@@ -25,10 +25,6 @@ export default function RootLayout({ children }) {
         )}
       >
         <Provider>
-          <div className='main'>
-            <div className='gradient' />
-          </div>
-
           <main className='app'>
             {children}
           </main>
