@@ -23,11 +23,11 @@ export default function RootLayout({ children }) {
           "min-h-screen bg-black font-sans antialiased",
           fontSans.variable
         )}
-      >
-        <Provider>
-          <div className='main'>
-            <div className='gradient' />
-          </div>
+      >        
+      <Provider>
+                <div className='main'>
+                    <div className='' />
+                </div>
 
           <main className='app'>
             {children}

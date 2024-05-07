@@ -8,18 +8,29 @@ import Section4 from "@/components/ui/Section4";
 import Mentors from "./mentors/Mentors";
 import RecruitmentProcess from "./recruitmentProcess/RecruitmentProcess";
 import Reviews from "./reviews/Reviews";
+import Section2 from "@/components/Section2/page";
+import Section5 from "@/components/Section5/page";
+import Section12 from "@/components/Section12/page";
+
+
 
 export default function Home() {
   return (
     <div>
       <Header />
+      <Section2 />
+      <Section3></Section3>
+      <Section4/>
+      <Section5 />
       <Mentors />
       <RecruitmentProcess />
       <Reviews />
-      <Footer />
-      <Section3></Section3>
+      <Section12 />
+      
       <Slider/>
-      <Section4/>
+      
+      <Footer />
+      
     </div>
   );
 }
