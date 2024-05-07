@@ -11,9 +11,9 @@ export default function Home() {
     <div>
       <Header />
       <Footer />
-      {/* <Section3></Section3>
+      <Section3></Section3>
       <Slider/>
-      <Section4/> */}
+      <Section4/>
     </div>
   );
 }

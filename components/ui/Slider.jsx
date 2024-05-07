@@ -15,9 +15,9 @@ function Slider() {
         <span
           className="opacity-0 translate-x-28 block"
           style={{
-            transform: isInView ? "none" : "translateX(0px), translateY(0px)",
+            transform: isInView ? "none" : "translateX(0px)",
             opacity: isInView ? 1 : 0,
-            transition: " 0.5s",
+            transition: " 2s",
           }}
         >
           <motion.img
