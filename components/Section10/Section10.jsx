@@ -1,11 +1,10 @@
 import Image from "next/image";
-import "../mentors/style.css";
 import phoneBG from "../../public/images/phoneBG.svg"
 import ItemReview from "./ItemReview";
 
-export default function Reviews() {
+export default function Section10() {
     return (
-        <div className="mentors mt-[330px]">
+        <div className="main mt-[330px]">
             <div className="text-white text-center text-[50px] font-bold leading-normal">30여년<br />훈련생분들의 <span className="text-[#ff9900]">솔직한</span> 후기</div>
             <div className="relative mt-16">
                 <Image className="w-full" src={phoneBG} />
