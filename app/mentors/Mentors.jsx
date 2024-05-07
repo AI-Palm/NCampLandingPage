@@ -67,7 +67,7 @@ export default function Mentors() {
                                 <li>세번의 프로젝트를 <span className="text-white">효율적으로 이끈 리더십</span> 플랫폼 개발 프로젝트를 진행하며 <span className="text-white">끊임없이 고민하고 부딪혀온 경험</span></li>
                             </ul>
                             <div className="mt-10 text-white text-[22px] leading-8 font-normal">멘토의 한마디</div>
-                            <ul class="list-disc list-inside mt-[9px] text-[#adadad] text-[20px] leading-[30px] font-normal">
+                            <ul class="list-disc list-outside ml-6 mt-[9px] text-[#adadad] text-[20px] leading-[30px] font-normal">
                                 <li>프로젝트 내용을 잘 정리하고 <span className="text-white">본인의 기술 스택을 잘 보완 하는 것이 중요</span>하다고 생각해요</li>
                             </ul>
                         </div>
