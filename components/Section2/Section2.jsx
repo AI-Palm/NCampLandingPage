@@ -2,7 +2,7 @@
 import React from 'react';
 import { motion, useInView, useScroll } from "framer-motion";
 import { useRef } from "react";
-import useInViewAnimation from "@/components/useInViewAnimation";
+import useInViewXAxisAnimation from "@/components/useInViewXAxisAnimation";
 
 
 
@@ -10,10 +10,7 @@ import useInViewAnimation from "@/components/useInViewAnimation";
 const Section2 = () => {
     const containerRef = useRef();
 
-
-    
-
-    const { ref: skillRef, controls: isSkillRefInView } = useInViewAnimation();
+    const { ref: skillRef, controls: isSkillRefInView } = useInViewXAxisAnimation();
 
 
     return (
