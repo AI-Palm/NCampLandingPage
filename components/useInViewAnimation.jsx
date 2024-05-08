@@ -3,7 +3,7 @@ import { useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 const useInViewAnimation = () => {
-  const { ref, inView } = useInView({ threshold: 0.5 });
+  const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.5 });
   const controls = useAnimation();
 
   useEffect(() => {

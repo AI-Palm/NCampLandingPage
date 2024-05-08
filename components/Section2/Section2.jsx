@@ -2,6 +2,8 @@
 import React from 'react';
 import { motion, useInView, useScroll } from "framer-motion";
 import { useRef } from "react";
+import useInViewAnimation from "@/components/useInViewAnimation";
+
 
 
 
@@ -9,12 +11,14 @@ const Section2 = () => {
     const containerRef = useRef();
 
 
-    const skillRef = useRef();
-    const isSkillRefInView = useInView(skillRef, { margin: "-100px" });
+    
+
+    const { ref: skillRef, controls: isSkillRefInView } = useInViewAnimation();
+
 
     return (
         <>
-        <div className="bg-black h-full flex justify-center items-center " ref={containerRef}>
+        <div className="bg-black h-full my-60 flex justify-center items-center " ref={containerRef}>
             <motion.div 
                 initial={{opacity: 0, y: "200px" }}
                 animate={{opacity: isSkillRefInView ? 1 : 0, y: isSkillRefInView ? 0 : 20   }}

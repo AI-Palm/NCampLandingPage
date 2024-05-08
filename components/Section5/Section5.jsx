@@ -15,6 +15,8 @@ import Aws4Part3 from "@/public/icons/aws4p3-icon.png"
 
 
 
+
+
 const Section5 = () => {
   return (
     <>  
@@ -35,7 +37,7 @@ const Section5 = () => {
                     30여년 노하우를 6개월에 담았습니다.
                 </h1>
 
-                <div className='flex flex-row    w-auto lg:w-3/5 h-16 rounded-3xl border-y  border-r-2 border-white mt-20 mb-4'>
+                <div className='flex flex-row    w-auto md:w-auto lg:w-2/5 h-16 rounded-3xl border-y  border-r-2 border-white mt-20 mb-4'>
                     <div className='bg-white flex items-center rounded-3xl   border-l-4 border-white  md:px-14 px-4  md:mr-10 mr-4 z-10'>
                         <h2 className='text-black text-xs lg:text-xl md:text-lg'>섹션1</h2>
                     </div>
@@ -134,7 +136,7 @@ const Section5 = () => {
 
             {/* Part2 */}
             <div className='flex flex-col  justify-center items-center mt-10 '>
-                <div className='flex flex-row    w-auto  lg:w-3/5 h-16 rounded-3xl border-y  border-r-2 border-white mt-20 mb-4'>
+                <div className='flex flex-row    w-auto  lg:w-2/5 h-16 rounded-3xl border-y  border-r-2 border-white mt-20 mb-4'>
                     <div className='bg-white  flex items-center rounded-3xl   border-l-4 border-white  md:px-14 px-4  md:mr-10 mr-4 z-10'>
                         <h2 className='text-black text-xs lg:text-xl md:text-lg'>섹션2</h2>
                     </div>
@@ -213,7 +215,7 @@ const Section5 = () => {
             
             {/* Part3 */}
             <div className='flex flex-col  justify-center items-center mt-10 '>
-                <div className='flex flex-row    w-auto lg:w-3/5 h-16 rounded-3xl border-y  border-r-2 border-white mt-20 mb-4'>
+                <div className='flex flex-row    w-auto lg:w-2/5 h-16 rounded-3xl border-y  border-r-2 border-white mt-20 mb-4'>
                     <div className='bg-white flex items-center rounded-3xl   border-l-4 border-white  md:px-14 px-4  md:mr-10 mr-4 z-10'>
                         <h2 className='text-black text-xs lg:text-xl md:text-lg'>섹션3</h2>
                     </div>
