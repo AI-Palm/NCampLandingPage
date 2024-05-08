@@ -1,3 +1,7 @@
+"use client";
+
+import { motion } from "framer-motion";
+
 export default function ItemReview({ index }) {
     return (
         <div className="flex items-center mt-[50px] mx-[54px]">
@@ -9,7 +13,12 @@ export default function ItemReview({ index }) {
                     className="w-[17%] h-[17%] mr-[22px] bg-white rounded-full"
                 />
             }
-            <div className="grow relative">
+            <motion.div
+                className="grow relative"
+                initial={{ opacity: 0, x: index % 2 === 0 ? 100 : -100 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.4 }}
+                viewport={{ once: true, amount: 0.5 }}>
                 {
                     index % 2 === 0 &&
                     <svg className="absolute top-1/2 left-0" xmlns="http://www.w3.org/2000/svg" width="51" height="51" viewBox="0 0 51 51" fill="none">
@@ -27,7 +36,7 @@ export default function ItemReview({ index }) {
                         <path d="M51.0001 -6.43865e-07L5.65766e-05 3.8147e-06L6.10352e-05 51L51.0001 -6.43865e-07Z" fill="#FFC700" />
                     </svg>
                 }
-            </div>
+            </motion.div>
             {
                 index % 2 != 0 &&
                 <img

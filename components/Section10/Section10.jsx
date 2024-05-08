@@ -1,3 +1,6 @@
+"use client";
+
+import { motion } from "framer-motion";
 import Image from "next/image";
 import phoneBG from "../../public/images/phoneBG.svg"
 import ItemReview from "./ItemReview";
@@ -5,7 +8,14 @@ import ItemReview from "./ItemReview";
 export default function Section10() {
     return (
         <div className="main mt-[330px]">
-            <div className="text-white text-center text-[50px] font-bold leading-normal">30여년<br />훈련생분들의 <span className="text-[#ff9900]">솔직한</span> 후기</div>
+            <motion.div
+                className="text-white text-center text-[50px] font-bold leading-normal"
+                initial={{ opacity: 0, y: 100 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.4 }}
+                viewport={{ once: true, amount: 0.5 }}>
+                30여년<br />훈련생분들의 <span className="text-[#ff9900]">솔직한</span> 후기
+            </motion.div>
             <div className="relative mt-16">
                 <Image className="w-full" src={phoneBG} />
                 <div className="w-full h-full absolute top-0 flex justify-center">
