@@ -10,10 +10,10 @@ export default function Section11() {
                 <img
                     loading="lazy"
                     src="https://s3-alpha-sig.figma.com/img/c6a2/3bfe/232d8bbfd4809f19b5ff517a3bb15ab6?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=GlxKAp6eBOegbIO2xg2WGBVrqUAfJfkWRj9A56~VbF1uH5O87fA5zx58-S5mg4GoyzGENCnNMefhGBNaFR-NcpuaDBagbaXJZ~SOSGfuN0o93uTcXa1ljTO0sjMydMBMFSfMcvJ9b7kYyciJuF5R3fxVz4PfOGFwbtGxXzc2Cbex6E6tFU6BcJWejoZ3X-7oZDXWSuNWKovA2gvyozx2i7NgEHi8-SNGqukLFIpOKdPGELj6hc3t8eq8f9uw40l3fqCOOyT4FMGzvxQyniuvPd4O1Q0ngQd6fGW8g2t1uBbIHjYMNHphJQqJPuVAilOxjQgG7VcobGZeeQ0WGfm9Cg__"
-                    className="w-[333px] h-[333px] object-cover"
+                    className="w-[42%] aspect-square object-cover"
                 />
                 <motion.div
-                    className="text-[#adadad] text-[25px] font-normal leading-[35px]"
+                    className="ml-5 text-[#adadad] text-[25px] font-normal leading-[35px]"
                     initial={{ opacity: 0, x: 100 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.4 }}
@@ -23,7 +23,7 @@ export default function Section11() {
             </div>
             <div className="mt-[55px] flex justify-around items-end">
                 <motion.div
-                    className="text-white text-[25px] font-normal leading-[35px]"
+                    className="mr-5 text-white text-[25px] font-normal leading-[35px]"
                     initial={{ opacity: 0, x: -100 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.4 }}
@@ -33,17 +33,17 @@ export default function Section11() {
                 <img
                     loading="lazy"
                     src="https://s3-alpha-sig.figma.com/img/2ae2/b41e/dd80aa083d75d663a4c597617c4cfd33?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NJ6zAUflTNQRodY4nb0IUVJaO08YnVU262sbSSY8oQoqSxAuD47BRvIDMkLLKV~QmlxbrWgmYRRWSwB6fX5EdHdh7BUnP0a0AQAYHnRnck6nF~2g33dABfsD9dWpicjjuNdrP6t4wCm1goLnv3QanYvIKId0uvUAqu8PeqrSbxnDyE67tKCecs8BPbWtjpKOrOKyq2lkTZL0vLuVzhTYiaItlTUf7MrUjB4mYrLgDkQ9CIMmObE4PUDUqhlbhmU2IS8vPlA9wIzmKdGahUM0np0YTluLSj1Ug41NqVQk7g6Aw4Lhv8jS2Hlo9F9OsxqJZxL93N88mKdDMFeOl0cW4Q__"
-                    className="w-[333px] h-[333px] object-cover"
+                    className="w-[42%] aspect-square object-cover"
                 />
             </div>
             <div className="mt-[55px] flex justify-around items-end">
                 <img
                     loading="lazy"
                     src="https://s3-alpha-sig.figma.com/img/3c4d/c3b6/809d2d88c066bdb150d856f3ba62874c?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=lcIitWB95iE-mxFtsBFfxrijmxdKlhjrN3f02i7TtwPqK8dzpRNMrG228UB9MKICU9nqHajtCsbyOgXW-Bp5mTYdxXGBm-Efn4SaHy87G5Q4b3MYK4LFbOaBTxzvACXDrXi~e6Q3qpfoyh2ZSch-4h4a7TKcolgPdVQbzlS--O7cqMmHE42An4863bNXeaJLUhQvAaNJlTXk1D9BJcrLtonK8Hib8XUeAjvVdejdsvJFQxPAEZi6zkOKekRCQjC943md-wFIwGuNMf89kpx6GU6kVksShKIBrmiPqkhFNN~Dq5BC~5gCLEa3gMtnK2Ie8JVRqpYDyDsuDgSsFpYwEg__"
-                    className="w-[333px] h-[333px] object-cover"
+                    className="w-[42%] aspect-square object-cover"
                 />
                 <motion.div
-                    className="text-[#adadad] text-[25px] font-normal leading-[35px]"
+                    className="ml-5 text-[#adadad] text-[25px] font-normal leading-[35px]"
                     initial={{ opacity: 0, x: 100 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.4 }}
@@ -53,7 +53,7 @@ export default function Section11() {
             </div>
             <div className="mt-[55px] flex justify-around items-end">
                 <motion.div
-                    className="text-[#adadad] text-[25px] font-normal leading-[35px]"
+                    className="mr-5 text-[#adadad] text-[25px] font-normal leading-[35px]"
                     initial={{ opacity: 0, x: -100 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.4 }}
@@ -63,7 +63,7 @@ export default function Section11() {
                 <img
                     loading="lazy"
                     src="https://s3-alpha-sig.figma.com/img/f414/a53b/ffc1034dcbc9dcf9327e75737d1da111?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OtWE6pOzFUppJh0uici~oG8O3K9JGn1Y8mjT2G3tEzi9i-9JCMRmH7qK5V27fWkPSr-FP0SesDmM-z8rjp4IspkEwRNA5ohXUegkeP43s-BsCPGYDDGzOG-ljZd933P2pT7HT7obIkmnIA-OP82XwohMkEzkE6Z3nwbLCZAGU-ZsC-U-n6ET2yOs69ANgWx-ysdTWbimN8RFN9MZ1jheqKqDWF3LGWQFqrTx-k9J6TqifMav1f~H1Yw3~pui8fLkpVrHdloUkydhgz93dC4-HmMcdx8lzqYHiHIC-8INC-ZXcMAAgjDK~IrD-ZFSF8uBsOZWnD8~BI9HZXztZptxqg__"
-                    className="w-[333px] h-[333px] object-cover"
+                    className="w-[42%] aspect-square object-cover"
                 />
             </div>
             <div className="flex items-center justify-center pt-[154px] pb-[169px]">
