@@ -32,6 +32,10 @@ function Slider() {
           ></motion.img>
         </span>
       </section>
+      <div className="flex flex-row">
+        <div className="text-yellow-400">1</div>
+        <div className="text-yellow-400">112</div>
+      </div>
     </div>
   );
 }

@@ -1,14 +1,13 @@
-const { fontFamily } = require("tailwindcss/defaultTheme")
-
+const { fontFamily } = require("tailwindcss/defaultTheme");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: ["class"],
   content: [
-    './pages/**/*.{js,jsx}',
-    './components/**/*.{js,jsx}',
-    './app/**/*.{js,jsx}',
-    './src/**/*.{js,ts,jsx,tsx}',
+    "./pages/**/*.{js,jsx}",
+    "./components/**/*.{js,jsx}",
+    "./app/**/*.{js,jsx}",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   prefix: "",
   theme: {
@@ -20,6 +19,17 @@ module.exports = {
       },
     },
     extend: {
+      screens: {
+        "2xl": "1400px",
+
+        "-xl": { max: "1279px" },
+
+        "-lg": { max: "1023px" },
+
+        "-md": { max: "767px" },
+
+        "-sm": { max: "639px" },
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -75,13 +85,12 @@ module.exports = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       fontFamily: {
-        sans: [ ...fontFamily.sans],
+        sans: [...fontFamily.sans],
       },
       fontSize: {
-        xss: ['8px', '9.5px'],
-        
-      }
+        xss: ["8px", "9.5px"],
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
-}
+};
