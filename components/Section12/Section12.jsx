@@ -7,17 +7,15 @@ import { useInView } from "react-intersection-observer";
 
 import { motion, useScroll, useAnimation } from "framer-motion";
 
-import useInViewAnimation from "@/components/useInViewAnimation";
+import useInViewXAxisAnimation from "@/components/useInViewXAxisAnimation";
+import useInViewYAxisAnimation from "@/components/useInViewYAxisAnimation";
 
 const Section12 = () => {   
-    const { ref: h1Ref, controls: h1Controls } = useInViewAnimation();
-    const { ref: pRef, controls: pControls } = useInViewAnimation();
-    const { ref: h1blRef, controls: h1blControls } = useInViewAnimation();
-    const { ref: descRef, controls: descControls } = useInViewAnimation();
-
-
-      
-    
+    const { ref: h1Ref, controls: h1Controls,  } = useInViewXAxisAnimation();
+    const { ref: pRef, controls: pControls,  } = useInViewXAxisAnimation();
+    const { ref: roadmapRef, controls: roadmapControls } = useInViewYAxisAnimation();
+    const { ref: h1blRef, controls: h1blControls } = useInViewXAxisAnimation();
+    const { ref: descRef, controls: descControls } = useInViewXAxisAnimation();
 
   return (
     <>
@@ -49,13 +47,14 @@ const Section12 = () => {
                     <span className='text-orange-200 font-extrabold'>국민내일배움카드 소지자는</span> 교육비 전액 무료 지원<br />
                     <span className='text-orange-200 font-extrabold'>매월</span> 지원훈련 장려금도 지급</motion.p>
                 <motion.div 
-                initial={{ opacity: 0, y: "180px" }}
-                whileInView={{ opacity: 1, y: 0}}
+                ref={roadmapRef}
+                initial={{ opacity: 0, y:180 }}
+                animate={roadmapControls}
                 transition={{
                     type: "spring",
                     stiffness: 260,
                     damping: 80,
-                    duration:3
+                    delay: 0.5
                    
                   }}
                 className='flex  flex-wrap md:flex-row justify-center w-auto m-4 '>
