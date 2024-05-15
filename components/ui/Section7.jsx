@@ -13,24 +13,26 @@ function Section7() {
       {/* motion animation */}
       <div className="w-full h-[342.48px] relative flex mx-auto justify-center gap-4">
         <motion.div
-          className="w-[342.48px] h-[342.48px]"
-          initial={{ opacity: 0, x: -200 }}
+          className="w-[342.48px] h-[342.48px] -sm:w-[120px] -sm:h-[120px]"
+          initial={{ opacity: 0, x: -100 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{
-            duration: 0.2,
+            duration: 0.15,
             type: "spring",
             bounce: 0.25,
-            delay: 0.1,
+            delay: 0.05,
           }}
         >
           <img
-            className=" rounded-full  absolute"
+            className="w-auto h-auto -sm:w-[120px] -sm:h-[120px] rounded-full absolute "
             src="/section7/instructor-1-section7.png"
           />
         </motion.div>
-        <div className="w-[333px] h-auto text-center flex flex-col justify-center">
-          <div className="w-auto h-auto relative flex flex-col justify-center gap-y-2">
-            <p className="text-[#F90] text-3xl pl-20">커리어로드맵 설계</p>
+        <div className="w-[333px] -sm:w-[260px] h-auto text-center flex flex-col ">
+          <div className="w-auto h-auto relative flex flex-col  gap-y-2 -sm:gap-y-1">
+            <p className="text-[#F90] text-3xl -sm:text-xl pl-20">
+              커리어로드맵 설계
+            </p>
             <div className="h-[7px] ">
               <img
                 className="w-16 h-auto absolute"
@@ -38,16 +40,20 @@ function Section7() {
                 alt=""
               />
             </div>
-            <p className="text-[#ADADAD] text-[22px] text-center pl-20">
+            <p className="text-[#ADADAD] text-[22px] -sm:text-[17px] text-center pl-20">
               라인 백엔드 개발자 조성빈님 특강
             </p>
           </div>
         </div>
       </div>
+
+      {/* section 2 */}
       <div className="w-full h-[342.48px] relative flex mx-auto justify-center gap-4">
-        <div className="w-[333px] h-auto text-center flex flex-col justify-center">
-          <div className="w-auto h-auto relative flex flex-col justify-center gap-y-2">
-            <p className="text-[#F90] text-3xl pr-20">시대가 원하는 개발자</p>
+        <div className="w-[333px] -sm:w-[260px] h-auto text-center flex flex-col ">
+          <div className="w-auto h-auto relative flex flex-col gap-y-2">
+            <p className="text-[#F90] text-3xl -sm:text-xl pr-20">
+              시대가 원하는 개발자
+            </p>
             <div className="h-[7px] ">
               <img
                 className="w-16 h-auto absolute right-0"
@@ -55,64 +61,65 @@ function Section7() {
                 alt=""
               />
             </div>
-            <p className="text-[#ADADAD] text-[22px] not-italic font-normal text-center pr-20">
+            <p className="text-[#ADADAD] text-[22px] -sm:text-[17px] not-italic font-normal text-center pr-20">
               열혈강의 저자강요천 개발자님 특강
             </p>
           </div>
         </div>
         <motion.div
-          className="w-[342.48px] h-[342.48px]"
+          className="w-[342.48px] h-[342.48px] -sm:w-[120px] -sm:h-[120px]"
           initial={{ opacity: 0, x: 200 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{
-            duration: 0.2,
+            duration: 0.15,
             type: "spring",
             bounce: 0.25,
-            delay: 0.1,
+            delay: 0.05,
           }}
         >
           <img
-            className=" rounded-full  absolute"
+            className="w-auto h-auto -sm:w-[120px] -sm:h-[120px] rounded-full  absolute"
             src="/section7/instructor-2-s7.png"
           />
         </motion.div>
       </div>
-      <div className="w-full h-[342.48px] relative flex mx-auto justify-center gap-4 mb-24">
+      <div className="w-full h-[342.48px] relative flex mx-auto justify-center gap-4">
         <motion.div
-          className="w-[342.48px] h-[342.48px]"
-          initial={{ opacity: 0, x: -200 }}
+          className="w-[342.48px] h-[342.48px] -sm:w-[120px] -sm:h-[120px]"
+          initial={{ opacity: 0, x: -100 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{
-            duration: 0.2,
+            duration: 0.15,
             type: "spring",
             bounce: 0.25,
-            delay: 0.1,
+            delay: 0.05,
           }}
         >
           <img
-            className=" rounded-full  absolute"
+            className="w-auto h-auto -sm:w-[120px] -sm:h-[120px] rounded-full absolute "
             src="/section7/instructor-3-s7.png"
           />
         </motion.div>
-        <div className="w-[333px] h-auto text-center flex flex-col justify-center">
-          <div className="w-auto h-auto relative flex flex-col justify-center gap-y-2">
-            <p className="text-[#F90] text-3xl pl-20">
-              나를 매력적인개발자로 만드는 법
+        <div className="w-[333px] -sm:w-[260px] h-auto text-center flex flex-col ">
+          <div className="w-auto h-auto relative flex flex-col  gap-y-2">
+            <p className="text-[#F90] text-3xl -sm:text-xl pl-20">
+              커리어로드맵 설계
             </p>
             <div className="h-[7px] ">
               <img
                 className="w-16 h-auto absolute"
-                src="/instructor/line-section7.png"
+                src="/section7/line-section7.png"
                 alt=""
               />
             </div>
-            <p className="text-[#ADADAD] text-[22px] text-center pl-20">
-              Lunit <br />
-              머신러닝 엔지니어 김동이님
+            <p className="text-[#ADADAD] text-[22px] -sm:text-[17px] text-center pl-20">
+              라인 백엔드 개발자 조성빈님 특강
             </p>
           </div>
         </div>
       </div>
+      {/* section 3 */}
+
       <div className="">
         <button className="w-[500px] h-[76px]  bg-[#FF9900] justify-center shrink-0 flex flex-row gap-8  items-center rounded-full">
           <p className="text-white text-center text-3xl font-normal not-italic">
