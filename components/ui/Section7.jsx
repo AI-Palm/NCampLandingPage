@@ -30,7 +30,7 @@ function Section7() {
         </motion.div>
         <div className="w-[333px] -sm:w-auto h-auto  text-center flex flex-col justify-center ">
           <div className="w-auto h-auto relative flex flex-col  gap-y-2 -sm:gap-y-1 ">
-            <p className="text-[#F90] text-3xl -sm:text-base pl-32">
+            <p className="text-[#F90] text-3xl -sm:text-base -sm:pl-20 pl-32">
               커리어로드맵 설계
             </p>
             <div className="h-[7px] ">
@@ -40,7 +40,7 @@ function Section7() {
                 alt=""
               />
             </div>
-            <p className="text-[#ADADAD] text-[22px] -sm:text-[14px] text-center pl-32">
+            <p className="text-[#ADADAD] text-[22px] -sm:text-[14px] text-center pl-32 -sm:pl-20">
               라인 백엔드 개발자 조성빈님 특강
             </p>
           </div>
@@ -51,7 +51,7 @@ function Section7() {
       <div className="w-full h-[342.48px]  -sm:h-auto -sm:px-5 relative flex mx-auto -sm:mb-8 justify-center gap-4">
         <div className="w-[333px] -sm:w-[260px] h-auto text-center flex flex-col justify-center">
           <div className="w-auto h-auto relative flex flex-col gap-y-2 -sm:gap-y-1 ">
-            <p className="text-[#F90] text-3xl -sm:text-base pr-32">
+            <p className="text-[#F90] text-3xl -sm:text-base pr-32 -sm:pr-20">
               시대가 원하는 개발자
             </p>
             <div className="h-[7px] ">
@@ -61,7 +61,7 @@ function Section7() {
                 alt=""
               />
             </div>
-            <p className="text-[#ADADAD] text-[22px] -sm:text-[15px] not-italic font-normal text-center pr-32">
+            <p className="text-[#ADADAD] text-[22px] -sm:text-[15px] not-italic font-normal text-center pr-32 -sm:pr-20">
               열혈강의 저자강요천 개발자님 특강
             </p>
           </div>
@@ -102,7 +102,7 @@ function Section7() {
         </motion.div>
         <div className="w-[333px] -sm:w-auto h-auto  text-center flex flex-col justify-center ">
           <div className="w-auto h-auto relative flex flex-col  gap-y-2 -sm:gap-y-1 ">
-            <p className="text-[#F90] text-3xl -sm:text-base pl-32">
+            <p className="text-[#F90] text-3xl -sm:text-base pl-32 -sm:pl-20">
               커리어로드맵 설계
             </p>
             <div className="h-[7px] ">
@@ -112,7 +112,7 @@ function Section7() {
                 alt=""
               />
             </div>
-            <p className="text-[#ADADAD] text-[22px] -sm:text-[14px] text-center pl-32">
+            <p className="text-[#ADADAD] text-[22px] -sm:text-[14px] text-center pl-32 -sm:pl-20">
               라인 백엔드 개발자 조성빈님 특강
             </p>
           </div>

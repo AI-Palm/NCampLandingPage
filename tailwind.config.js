@@ -29,6 +29,7 @@ module.exports = {
         "-md": { max: "767px" },
 
         "-sm": { max: "639px" },
+        "sm-bw": {min: '640px', max: '767px'},
         "md-bw": { min: "768px", max: "1279px" },
       },
       colors: {
