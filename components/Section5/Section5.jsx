@@ -15,6 +15,8 @@ import Aws4Part3 from "@/public/icons/aws4p3-icon.png"
 
 
 
+
+
 const Section5 = () => {
   return (
     <>  
@@ -22,8 +24,8 @@ const Section5 = () => {
         <div className="bg-black  flex flex-col justify-center  " >
             {/* AWS Banner */}
             <div className='bg-orange-400 w-full h-auto sm:h-96   flex flex-col justify-center items-center'>
-                <Image src={AwsLogo2} className="w-auto sm:w-40 h-auto sm:my-0 my-5  " alt="AWS Logo" />
-                <h1 className="text-xl lg:text-4xl md:text-4xl text-white font-extrabold  mt-8 mb-4 text-left">
+                <Image src={AwsLogo2} className="w-32 h-20 sm:w-40  sm:my-0 my-5  " alt="AWS Logo" />
+                <h1 className="text-4xl lg:text-6xl md:text-4xl text-white font-extrabold  md:mt-8 mb-4 text-left">
                     AWS캠프 커리큘럼
                 </h1>
             </div>
@@ -35,7 +37,7 @@ const Section5 = () => {
                     30여년 노하우를 6개월에 담았습니다.
                 </h1>
 
-                <div className='flex flex-row    w-auto lg:w-3/5 h-16 rounded-3xl border-y  border-r-2 border-white mt-20 mb-4'>
+                <div className='flex flex-row    w-auto md:w-auto lg:w-2/5 h-16 rounded-3xl border-y  border-r-2 border-white mt-20 mb-4'>
                     <div className='bg-white flex items-center rounded-3xl   border-l-4 border-white  md:px-14 px-4  md:mr-10 mr-4 z-10'>
                         <h2 className='text-black text-xs lg:text-xl md:text-lg'>섹션1</h2>
                     </div>
@@ -92,7 +94,7 @@ const Section5 = () => {
                                 <h1 className="text-sm lg:text-base md:text-sm text-lime-500 mt-2  sm:mt-6   mb-4 text-left">
                                     3. 스프링 데이터
                                 </h1>
-                                <div className='flex flex-col md:flex-row justify-center md:items-start items-center'>
+                                <div className='flex flex-col md:flex-row justify-center md:items-start items-center  '>
                                     <Image src={SpringIcon} className="bg-white ml-2 w-auto md:w-1/3 h-28 sm:h-32 p-6 sm:p-4 " alt="DeviconJava Logo" />
                                     <ul className="md:ml-8 mt-5 md:mt-0 list-disc text-xs lg:text-base md:text-base text-white">
                                         <li>클라우드 환경에서 ML모델 개발 실습</li>
@@ -134,7 +136,7 @@ const Section5 = () => {
 
             {/* Part2 */}
             <div className='flex flex-col  justify-center items-center mt-10 '>
-                <div className='flex flex-row    w-auto  lg:w-3/5 h-16 rounded-3xl border-y  border-r-2 border-white mt-20 mb-4'>
+                <div className='flex flex-row    w-auto  lg:w-2/5 h-16 rounded-3xl border-y  border-r-2 border-white mt-20 mb-4'>
                     <div className='bg-white  flex items-center rounded-3xl   border-l-4 border-white  md:px-14 px-4  md:mr-10 mr-4 z-10'>
                         <h2 className='text-black text-xs lg:text-xl md:text-lg'>섹션2</h2>
                     </div>
@@ -145,13 +147,13 @@ const Section5 = () => {
 
                 <div className="flex flex-col  mt-5">
                         <div className='flex flex-col md:flex-row justify-between items-center'>
-                            <div className=" w-full h-auto bg-gray-800 border-2 border-white rounded-3xl p-4 m-4 text-white flex flex-col sm:w-full md:w-1/2 lg:w-1/2 lg:h-72 md:h-96 "  >
+                            <div className=" w-full h-auto bg-gray-800 border-2 border-white rounded-3xl p-4 md:m-4 my-4 mx-16 text-white flex flex-col sm:w-full md:w-1/2 lg:w-1/2 lg:h-72 md:h-96 "  >
                                 <h1 className="text-sm lg:text-base md:text-sm text-blue-400 mt-2  sm:mt-6   mb-4 text-left">
                                     1. CSS                                
                                 </h1>
                                 <div className='flex flex-col md:flex-row  items-center md:items-start '>
                                     <Image src={CssIcon} className="bg-white ml-2 w-auto md:w-1/3 h-28 sm:h-32 p-6 sm:p-4 " alt="Aws1Part3 Logo" />
-                                    <ul className="md:ml-8 mt-5 md:mt-0 list-disc text-xs lg:text-base md:text-base text-white">
+                                    <ul className="md:ml-8 mt-5 md:mt-0 list-disc text-xs lg:text-base md:text-base text-white ">
                                         <li>JDK 설치 및 설정</li>
                                         <li>자료형과 리터럴, 변수, 배열, <br/>연산자 조건문, 반복문  </li>
                                         <li>클래스, 스태틱 멤버, <br/>인스턴스 멤버, 생성자</li>
@@ -213,12 +215,12 @@ const Section5 = () => {
             
             {/* Part3 */}
             <div className='flex flex-col  justify-center items-center mt-10 '>
-                <div className='flex flex-row    w-auto lg:w-3/5 h-16 rounded-3xl border-y  border-r-2 border-white mt-20 mb-4'>
+                <div className='flex flex-row    w-auto lg:w-2/5 h-16 rounded-3xl border-y  border-r-2 border-white mt-20 mb-4'>
                     <div className='bg-white flex items-center rounded-3xl   border-l-4 border-white  md:px-14 px-4  md:mr-10 mr-4 z-10'>
-                        <h2 className='text-black text-xs lg:text-xl md:text-lg'>섹션3</h2>
+                        <h2 className='text-black text-xs lg:text-base md:text-lg'>섹션3</h2>
                     </div>
                     <div className='flex items-center'>
-                        <h2 className='text-white text-sm lg:text-xl md:text-lg'>AWS 제대로 활용하기 : AWS 기반 융합 프로젝트 </h2>
+                        <h2 className='text-white text-sm lg:text-base md:text-lg'>AWS 제대로 활용하기 : AWS 기반 융합 프로젝트 </h2>
                     </div>
                 </div>
 
