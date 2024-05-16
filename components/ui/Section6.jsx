@@ -14,7 +14,7 @@ function Section6() {
       <div className="bg-white  h-[1px] self-center "></div>
       <hr className="w-[736px] -sm:w-full my-12 h-0.5 border bg-white dark:bg-white/10 mt-96 mb-9" />
 
-      <div className="w-full h-auto text-5xl px-96 -sm:px-8 mb-9 -sm:text-2xl -sm:mb-4 leading-normal font-bold text-center">
+      <div className="w-full h-auto text-5xl px-96 -sm:px-8 -lg:px-8 mb-9 -sm:text-2xl -sm:mb-4 leading-normal font-bold text-center">
         <span className="text-white">동료들과 함께 성장</span>{" "}
         <span className="text-[#FF9900]">그룹 스터디</span>{" "}
         <span className="text-white">운영!</span>
