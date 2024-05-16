@@ -38,7 +38,7 @@ function Section6() {
           whileInView="animate"
         />
       </div>
-      <div class="w-[736px] -sm:w-full h-auto grid grid-cols-1 divide-y">
+      <div class="w-[736px] -sm:w-full h-auto grid grid-cols-1 divide-y mb-72 -sm:mb-32">
         <div className=" h-auto flex flex-row justify-center gap-9 -sm:gap-4 mb-6 -sm:mb-4 mx-28 -sm:mx-4">
           <div className="w-[22px] h-auto">
             <Image
@@ -74,23 +74,27 @@ function Section6() {
               </p>
             </div>
           </div>
-        </div></div>
-        <div><div className=" h-auto flex flex-row justify-center gap-9 my-6 mx-28 ">
-          <div className="w-[22px] h-auto">
-            <Image
-              width={22}
-              height={27}
-              priority
-              src="/section6/checked-box.png"
-              className="max-w-none"
-            ></Image>
-          </div>
-          <div className="w-auto">
-            <p className="text-xl font-normal not-italic text-[#ADADAD]">
-            스터디를 통하여 동료들과 협업하는 방법을 조금씩 배우며 실무 경험을 쌓아요.
-            </p>
+        </div>
+        <div>
+          <div className=" h-auto flex flex-row justify-center gap-9 -sm:gap-4 my-6 -sm:mb-4 mx-28 -sm:mx-4 ">
+            <div className="w-[22px] h-auto">
+              <Image
+                width={22}
+                height={27}
+                priority
+                src="/section6/checked-box.png"
+                className="max-w-none"
+              ></Image>
+            </div>
+            <div className="w-auto">
+              <p className="text-xl -sm:text-base font-normal not-italic text-[#ADADAD]">
+                스터디를 통하여 동료들과 협업하는 방법을 조금씩 배우며 실무
+                경험을 쌓아요.
+              </p>
+            </div>
           </div>
         </div>
+        <div></div>
       </div>
     </div>
   );
