@@ -11,6 +11,7 @@ import Section9 from "@/components/Section9/Section9";
 import Section10 from "@/components/Section10/Section10";
 import Section6 from "@/components/ui/Section6";
 import Section7 from "@/components/ui/Section7";
+import Section11 from "@/components/Section11/Section11";
 
 export default function Home() {
   return (
@@ -20,11 +21,12 @@ export default function Home() {
       <Section3 />
       <Section4 />
       <Section5 />
-      <Section6></Section6>
+      <Section6 />
       <Section7 />
       <Section8 />
       <Section9 />
       <Section10 />
+      <Section11 />
       <Section12 />
       <Footer />
     </div>
