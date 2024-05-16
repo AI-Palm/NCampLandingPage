@@ -217,10 +217,10 @@ const Section5 = () => {
             <div className='flex flex-col  justify-center items-center mt-10 '>
                 <div className='flex flex-row    w-auto lg:w-2/5 h-16 rounded-3xl border-y  border-r-2 border-white mt-20 mb-4'>
                     <div className='bg-white flex items-center rounded-3xl   border-l-4 border-white  md:px-14 px-4  md:mr-10 mr-4 z-10'>
-                        <h2 className='text-black text-xs lg:text-xl md:text-lg'>섹션3</h2>
+                        <h2 className='text-black text-xs lg:text-base md:text-lg'>섹션3</h2>
                     </div>
                     <div className='flex items-center'>
-                        <h2 className='text-white text-sm lg:text-xl md:text-lg'>AWS 제대로 활용하기 : AWS 기반 융합 프로젝트 </h2>
+                        <h2 className='text-white text-sm lg:text-base md:text-lg'>AWS 제대로 활용하기 : AWS 기반 융합 프로젝트 </h2>
                     </div>
                 </div>
 
