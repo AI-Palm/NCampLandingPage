@@ -78,6 +78,7 @@
 
 .main {
   width: 100%;
+  overflow: hidden;
   padding-left: 28%;
   padding-right: 28%;
 }
