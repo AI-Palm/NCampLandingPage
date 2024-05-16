@@ -16,6 +16,7 @@ module.exports = {
       padding: "2rem",
       screens: {
         "2xl": "1400px",
+        "md": {min: '768px', max: '1023px'},
       },
     },
     extend: {
@@ -29,6 +30,8 @@ module.exports = {
         "-md": { max: "767px" },
 
         "-sm": { max: "639px" },
+        "md-bw": {min: '768px', max: '1023px'},
+        
       },
       colors: {
         border: "hsl(var(--border))",

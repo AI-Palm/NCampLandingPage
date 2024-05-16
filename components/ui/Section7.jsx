@@ -30,17 +30,17 @@ function Section7() {
         </motion.div>
         <div className="w-[333px] -sm:w-auto h-auto  text-center flex flex-col justify-center ">
           <div className="w-auto h-auto relative flex flex-col  gap-y-2 -sm:gap-y-1 ">
-            <p className="text-[#F90] text-3xl -sm:text-base pl-20">
+            <p className="text-[#F90] text-3xl -sm:text-base pl-32">
               커리어로드맵 설계
             </p>
             <div className="h-[7px] ">
               <img
-                className="w-16 h-auto absolute"
+                className="w-16 md-bw:w-24 h-auto absolute"
                 src="/section7/line-section7.png"
                 alt=""
               />
             </div>
-            <p className="text-[#ADADAD] text-[22px] -sm:text-[14px] text-center pl-20">
+            <p className="text-[#ADADAD] text-[22px] -sm:text-[14px] text-center pl-32">
               라인 백엔드 개발자 조성빈님 특강
             </p>
           </div>
@@ -51,17 +51,17 @@ function Section7() {
       <div className="w-full h-[342.48px]  -sm:h-auto -sm:px-5 relative flex mx-auto -sm:mb-8 justify-center gap-4">
         <div className="w-[333px] -sm:w-[260px] h-auto text-center flex flex-col justify-center">
           <div className="w-auto h-auto relative flex flex-col gap-y-2 -sm:gap-y-1 ">
-            <p className="text-[#F90] text-3xl -sm:text-base pr-20">
+            <p className="text-[#F90] text-3xl -sm:text-base pr-32">
               시대가 원하는 개발자
             </p>
             <div className="h-[7px] ">
               <img
-                className="w-16 h-auto absolute right-0"
+                className="w-16 md-bw:w-24 h-auto absolute right-0"
                 src="/section7/line-right-section7.png"
                 alt=""
               />
             </div>
-            <p className="text-[#ADADAD] text-[22px] -sm:text-[15px] not-italic font-normal text-center pr-20">
+            <p className="text-[#ADADAD] text-[22px] -sm:text-[15px] not-italic font-normal text-center pr-32">
               열혈강의 저자강요천 개발자님 특강
             </p>
           </div>
@@ -102,17 +102,17 @@ function Section7() {
         </motion.div>
         <div className="w-[333px] -sm:w-auto h-auto  text-center flex flex-col justify-center ">
           <div className="w-auto h-auto relative flex flex-col  gap-y-2 -sm:gap-y-1 ">
-            <p className="text-[#F90] text-3xl -sm:text-base pl-20">
+            <p className="text-[#F90] text-3xl -sm:text-base pl-32">
               커리어로드맵 설계
             </p>
             <div className="h-[7px] ">
               <img
-                className="w-16 h-auto absolute"
+                className="w-16 md-bw:w-24 h-auto absolute"
                 src="/section7/line-section7.png"
                 alt=""
               />
             </div>
-            <p className="text-[#ADADAD] text-[22px] -sm:text-[14px] text-center pl-20">
+            <p className="text-[#ADADAD] text-[22px] -sm:text-[14px] text-center pl-32">
               라인 백엔드 개발자 조성빈님 특강
             </p>
           </div>
