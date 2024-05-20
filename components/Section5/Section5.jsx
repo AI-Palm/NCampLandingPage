@@ -48,7 +48,7 @@ const Section5 = () => {
 
                 <div className="flex flex-col  mt-5">
                         <div className='flex flex-col md:flex-row justify-between'>
-                            <div className=" w-auto h-auto bg-gray-800 border-2 border-white rounded-3xl p-4 m-4 text-white flex flex-col sm:w-auto md:w-1/2 lg:w-1/2 lg:h-80 md:h-80 "  >
+                            <div className=" w-auto h-auto bg-gray-800 border-2 border-white rounded-3xl p-4 m-4 text-white flex flex-col sm:w-auto md:w-1/2 lg:w-1/2 lg:h-80 md:h-96 "  >
                                 <h1 className="text-sm lg:text-base md:text-sm text-lime-500 mt-2  sm:mt-6   mb-4 text-left">
                                         1. 자바 프로그래밍
                                 </h1>
@@ -66,7 +66,7 @@ const Section5 = () => {
                                 </div>
                             </div>
 
-                            <div className=" w-auto h-auto bg-gray-800 border-2 border-white rounded-3xl p-4 m-4 text-white flex flex-col sm:w-auto md:w-1/2 lg:w-1/2 lg:h-80 md:h-80 "  >
+                            <div className=" w-auto h-auto bg-gray-800 border-2 border-white rounded-3xl p-4 m-4 text-white flex flex-col sm:w-auto md:w-1/2 lg:w-1/2 lg:h-80 md:h-96 "  >
                                 <h1 className="text-sm lg:text-base md:text-base text-lime-500 mt-2  sm:mt-6 mb-4 text-left">
                                     2. 데이터베이스 및 네트워크, 스레드 프로그래밍                                
                                 </h1>
@@ -90,7 +90,7 @@ const Section5 = () => {
                         </div>
 
                         <div className='flex flex-col md:flex-row justify-between'>                      
-                            <div className=" w-auto h-auto bg-gray-800 border-2 border-white rounded-3xl p-4 m-4 text-white flex flex-col sm:w-auto md:w-1/2 lg:w-1/2 lg:h-80 md:h-80 "  >
+                            <div className=" w-auto h-auto bg-gray-800 border-2 border-white rounded-3xl p-4 m-4 text-white flex flex-col sm:w-auto md:w-1/2 lg:w-1/2 lg:h-80 md:h-96 "  >
                                 <h1 className="text-sm lg:text-base md:text-sm text-lime-500 mt-2  sm:mt-6   mb-4 text-left">
                                     3. 스프링 데이터
                                 </h1>
@@ -110,7 +110,7 @@ const Section5 = () => {
                                 </div>
                             </div>
 
-                            <div className=" w-auto h-auto bg-gray-800 border-2 border-white rounded-3xl p-4 m-4 text-white flex flex-col sm:w-auto md:w-1/2 lg:w-1/2 lg:h-80 md:h-80 "  >
+                            <div className=" w-auto h-auto bg-gray-800 border-2 border-white rounded-3xl p-4 m-4 text-white flex flex-col sm:w-auto md:w-1/2 lg:w-1/2 lg:h-80 md:h-96 "  >
                                 <h1 className="text-sm lg:text-base md:text-base text-lime-500 mt-2  sm:mt-6 mb-4 text-left">
                                     4. 스프링 시큐리티                                
                                 </h1>
@@ -186,7 +186,7 @@ const Section5 = () => {
                         </div>
 
                         <div className='flex flex-col md:flex-row justify-center items-center'>                      
-                            <div className=" w-full h-auto bg-gray-800 border-2 border-white rounded-3xl p-4 m-4 text-white flex flex-col sm:w-full md:w-1/2 lg:w-1/2 lg:h-80 md:h-80 "  >
+                            <div className=" w-full h-auto bg-gray-800 border-2 border-white rounded-3xl p-4 m-4 text-white flex flex-col sm:w-full md:w-1/2 lg:w-1/2 lg:h-80 md:h-96 "  >
                                 <h1 className="text-sm lg:text-base md:text-sm text-blue-400 mt-2  sm:mt-6   mb-4 text-left">
                                     3. 리액트 프로그래밍
                                 </h1>
@@ -226,7 +226,7 @@ const Section5 = () => {
 
                 <div className="flex flex-col  mt-5">
                         <div className='flex flex-col md:flex-row justify-between items-center'>
-                            <div className=" w-full h-auto bg-gray-800 border-2 border-white rounded-3xl p-4 m-4 text-white flex flex-col sm:w-full md:w-1/2 lg:w-1/2 lg:h-72 md:h-96 "  >
+                            <div className=" w-full h-auto bg-gray-800 border-2 border-white rounded-3xl p-4 m-4 text-white flex flex-col sm:w-full md:w-1/2 lg:w-1/2 lg:h-72 md:h-[28rem] "  >
                                 <h1 className="text-sm lg:text-base md:text-sm text-orange-400 mt-2  sm:mt-6   mb-4 text-left">
                                     1. AWS 클라우드 활용                                
                                 </h1>
@@ -241,7 +241,7 @@ const Section5 = () => {
                                 </div>
                             </div>
 
-                            <div className=" w-full h-auto bg-gray-800 border-2 border-white rounded-3xl p-4 m-4 text-white flex flex-col sm:w-full md:w-1/2 lg:w-1/2 lg:h-72 md:h-96 "  >
+                            <div className=" w-full h-auto bg-gray-800 border-2 border-white rounded-3xl p-4 m-4 text-white flex flex-col sm:w-full md:w-1/2 lg:w-1/2 lg:h-72 md:h-[28rem] "  >
                                 <h1 className="text-sm lg:text-base md:text-base text-orange-400 mt-2  sm:mt-6 mb-4 text-left">
                                     2. AWS 기능 활용 및 프로젝트 배포
                                 </h1>
@@ -265,7 +265,7 @@ const Section5 = () => {
                         </div>
 
                         <div className='flex flex-col md:flex-row justify-center items-center'>                      
-                            <div className=" w-full h-auto bg-gray-800 border-2 border-white rounded-3xl p-4 m-4 text-white flex flex-col sm:w-full md:w-1/2 lg:w-1/2 lg:h-96 md:h-96 "  >
+                            <div className=" w-full h-auto bg-gray-800 border-2 border-white rounded-3xl p-4 m-4 text-white flex flex-col sm:w-full md:w-1/2 lg:w-1/2 lg:h-96 md:h-[28rem] "  >
                                 <h1 className="text-sm lg:text-base md:text-sm text-orange-400 mt-2  sm:mt-6   mb-4 text-left">
                                     3. AWS 운영서버 및 다운 서버 환경 구성                                </h1>
                                 <div className='flex flex-col md:flex-row justify-center md:items-start items-center'>
@@ -283,7 +283,7 @@ const Section5 = () => {
                                 </div>
                             </div>
 
-                            <div className=" w-full h-auto bg-gray-800 border-2 border-white rounded-3xl p-4 m-4 text-white flex flex-col sm:w-full md:w-1/2 lg:w-1/2 lg:h-96 md:h-96 "  >
+                            <div className=" w-full h-auto bg-gray-800 border-2 border-white rounded-3xl p-4 m-4 text-white flex flex-col sm:w-full md:w-1/2 lg:w-1/2 lg:h-96 md:h-[28rem] "  >
                                 <h1 className="text-sm lg:text-base md:text-sm text-orange-400 mt-2  sm:mt-6   mb-4 text-left">
                                     4.AWS 운영 서버의 외부 환경 구성                               
                                  </h1>
