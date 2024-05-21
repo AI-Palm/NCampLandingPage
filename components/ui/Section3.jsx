@@ -90,13 +90,13 @@ function Section3() {
       {/* description */}
       <div className="w-[620px] h-auto mb-[104px] leading-[30px] -sm:leading-[23px] -sm:text-[13.5px] font-apple -sm:w-auto text-xl text-center not-italic font-normal">
         <span className="text-[#ADADAD]">
-          세월이 흔적이 느껴지는 다양한 Java 웹개발 프로젝트들을
+          세월이 흔적이 느껴지는 다양한 Java 웹개발 프로젝트들을 <br />
         </span>{" "}
         <span className="text-[#FF9900] -sm:text-[#ADADAD]">
           ncamp(비트캠프 강남센터) 홈페이지
         </span>{" "}
         <span className="text-[#ADADAD]">
-          에서도 확인 가능해요! 그리고 계속 업데이트 중이니까 다양한 웹개발
+          에서도 확인 가능해요! <br /> 그리고 계속 업데이트 중이니까 다양한 웹개발
           프로젝트 기대해주세요.
         </span>
       </div>
