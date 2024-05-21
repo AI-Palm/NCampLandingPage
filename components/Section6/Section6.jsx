@@ -14,7 +14,7 @@ function Section6() {
       <div className="bg-white  h-[1px] self-center "></div>
       <hr className="w-[736px] -sm:w-full my-12 h-0.5 border bg-white dark:bg-white/10 mt-96 mb-9" />
 
-      <div className="w-1/2 -sm:w-full md-bw:w-full sm-bw:w-full  h-auto text-5xl px-10 md-bw:px-0  mb-9 -sm:text-2xl -sm:mb-4 leading-normal font-bold text-center">
+      <div className="w-1/2 font-rokaf -sm:w-full md-bw:w-full sm-bw:w-full  h-auto text-5xl px-10 md-bw:px-0  mb-9 -sm:text-2xl -sm:mb-4 leading-normal font-bold text-center">
         <span className="text-white">동료들과 함께 성장</span>{" "}
         <span className="text-[#FF9900]">그룹 스터디</span>{" "}
         <span className="text-white"> 운영!</span>
@@ -50,7 +50,7 @@ function Section6() {
             ></Image>
           </div>
           <div className="w-auto">
-            <p className="text-xl -sm:text-base font-normal not-italic text-[#ADADAD]">
+            <p className="text-xl font-apple leading-[30px] -sm:text-base font-normal not-italic text-[#ADADAD]">
               평일 오후 22시 까지 그룹스터디를 운영하여 혼자서도, 동료들과 함께
               개발자로 성장할 수 있어요!
             </p>
@@ -68,7 +68,7 @@ function Section6() {
               ></Image>
             </div>
             <div className="w-auto">
-              <p className="text-xl -sm:text-base font-normal not-italic text-[#ADADAD]">
+              <p className="text-xl font-apple leading-[30px] -sm:text-base font-normal not-italic text-[#ADADAD]">
                 전자레인지, 정수기, 공기청정기까지 설치되어 있어서 쾌적한
                 환경에서 스터디가 가능해요.
               </p>
@@ -86,11 +86,9 @@ function Section6() {
                 className="max-w-none"
               ></Image>
             </div>
-            <div className="w-auto">
-              <p className="text-xl -sm:text-base font-normal not-italic text-[#ADADAD]">
+            <div className="w-auto text-xl leading-[30px] font-apple -sm:text-base font-normal not-italic text-[#ADADAD]">
                 스터디를 통하여 동료들과 협업하는 방법을 조금씩 배우며 실무
                 경험을 쌓아요.
-              </p>
             </div>
           </div>
         </div>

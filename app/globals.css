@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "RokafSans";
+  src: url("/fonts/rokaf/ROKAF-Slab-Serif-Bold.ttf"), format("truetype");
+}
+@font-face {
+  font-family: "Apple";
+  src: url("/fonts/font-apple/85ba110e6b8d4c2e961f21ef648d27ea.ttf"), format("truetype");
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

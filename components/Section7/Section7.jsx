@@ -5,10 +5,8 @@ import { motion, useAnimation, useScroll } from "framer-motion";
 function Section7() {
   return (
     <div className="relative w-full h-full bg-gradient-to-b from-[#FF9900] via-transparent to-black mx-auto flex flex-col items-center overflow-hidden">
-      <div className="w-[425px] -sm:w-full  leading-normal font-bold text-center mt-20 mb-28">
-        <p className="text-white text-5xl -sm:text-xl">
-          대기업, 현직 개발자분들의특강 진행
-        </p>{" "}
+      <div className="w-[425px] -sm:w-full  leading-normal font-bold text-center mt-[86px] mb-[106px] text-white text-5xl -sm:text-xl font-rokaf">
+        대기업, 현직 개발자분들의특강 진행
       </div>
       {/* motion animation */}
       <div className="w-full h-[342.48px] -sm:h-auto relative flex mx-auto -sm:px-8  mb-8 justify-center gap-4">
@@ -29,7 +27,7 @@ function Section7() {
           />
         </motion.div>
         <div className="w-[333px] -sm:w-auto h-auto  text-center flex flex-col justify-center ">
-          <div className="w-auto h-auto relative flex flex-col  gap-y-2 -sm:gap-y-1 ">
+          <div className="w-auto h-auto relative flex flex-col  gap-y-2 -sm:gap-y-1 font-apple">
             <p className="text-[#F90] text-3xl -sm:text-base -sm:pl-20 pl-24">
               커리어로드맵 설계
             </p>
@@ -40,7 +38,7 @@ function Section7() {
                 alt=""
               />
             </div>
-            <p className="text-[#ADADAD] text-[22px] -sm:text-[14px] text-center pl-24 -sm:pl-20">
+            <p className="text-[#ADADAD] leading-[32px] text-[22px] -sm:text-[14px] text-center pl-24 -sm:pl-20">
               라인 백엔드 개발자 조성빈님 특강
             </p>
           </div>
@@ -50,7 +48,7 @@ function Section7() {
       {/* section 2 */}
       <div className="w-full h-[342.48px]  -sm:h-auto -sm:px-8 relative flex mx-auto -sm:mb-8 justify-center gap-4">
         <div className="w-[333px] -sm:w-[260px] h-auto text-center flex flex-col justify-center">
-          <div className="w-auto h-auto relative flex flex-col gap-y-2 -sm:gap-y-1 ">
+          <div className="w-auto h-auto relative flex flex-col gap-y-2 -sm:gap-y-1 font-apple">
             <p className="text-[#F90] text-3xl -sm:text-base pr-24 -sm:pr-20">
               시대가 원하는 개발자
             </p>
@@ -61,7 +59,7 @@ function Section7() {
                 alt=""
               />
             </div>
-            <p className="text-[#ADADAD] text-[22px] -sm:text-[15px] not-italic font-normal text-center pr-24 -sm:pr-20">
+            <p className="text-[#ADADAD] leading-[32px] text-[22px] -sm:text-[15px] not-italic font-normal text-center pr-24 -sm:pr-20">
               열혈강의 저자강요천 개발자님 특강
             </p>
           </div>
@@ -83,7 +81,7 @@ function Section7() {
           />
         </motion.div>
       </div>
-      <div className="w-full h-[342.48px] -sm:h-auto relative flex mx-auto -sm:px-8  mb-8 justify-center gap-4">
+      <div className="w-full h-[342.48px] -sm:h-auto relative flex mx-auto -sm:px-8  mb-24 justify-center gap-4">
         <motion.div
           className="w-[342.48px] h-[342.48px] -sm:w-auto -sm:h-[130px] -sm:min-w-[130px]"
           initial={{ opacity: 0, x: -100 }}
@@ -101,7 +99,7 @@ function Section7() {
           />
         </motion.div>
         <div className="w-[333px] -sm:w-auto h-auto  text-center flex flex-col justify-center ">
-          <div className="w-auto h-auto relative flex flex-col  gap-y-2 -sm:gap-y-1 ">
+          <div className="w-auto h-auto relative flex flex-col  gap-y-2 -sm:gap-y-1 font-apple">
             <p className="text-[#F90] text-3xl -sm:text-base pl-24 -sm:pl-20">
               커리어로드맵 설계
             </p>
@@ -112,7 +110,7 @@ function Section7() {
                 alt=""
               />
             </div>
-            <p className="text-[#ADADAD] text-[22px] -sm:text-[14px] text-center pl-24 -sm:pl-20">
+            <p className="text-[#ADADAD] text-[22px] -sm:text-[14px] leading-[32px] text-center pl-24 -sm:pl-20">
               라인 백엔드 개발자 조성빈님 특강
             </p>
           </div>
@@ -120,26 +118,24 @@ function Section7() {
       </div>
       {/* section 3 */}
 
-      <div className="mb-36">
-        <button className="w-[500px] -sm:w-auto h-[76px]  bg-[#FF9900] justify-center shrink-0 flex flex-row gap-8  items-center rounded-full -sm:px-8">
-          <p className="text-white text-center text-3xl -sm:text-base font-normal not-italic">
-            특강 브이로그 보러가기
-          </p>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="23"
-            height="27"
-            viewBox="0 0 23 27"
-            fill="none"
-            className="-sm:w-[20px] -sm:h-[24px]"
-          >
-            <path
-              d="M23 13.5L0.500001 26.0574L0.500002 0.942631L23 13.5Z"
-              fill="white"
-            />
-          </svg>
-        </button>
-      </div>
+      <button className="w-[500px] -sm:w-auto h-[76px] mb-72  bg-[#FF9900] justify-center shrink-0 flex flex-row gap-8  items-center rounded-full -sm:px-8">
+        <p className="text-white text-center text-3xl -sm:text-base font-normal not-italic font-apple">
+          특강 브이로그 보러가기
+        </p>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="23"
+          height="27"
+          viewBox="0 0 23 27"
+          fill="none"
+          className="-sm:w-[20px] -sm:h-[24px]"
+        >
+          <path
+            d="M23 13.5L0.500001 26.0574L0.500002 0.942631L23 13.5Z"
+            fill="white"
+          />
+        </svg>
+      </button>
     </div>
   );
 }
