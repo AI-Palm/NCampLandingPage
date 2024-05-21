@@ -29,7 +29,7 @@ module.exports = {
         "-md": { max: "767px" },
 
         "-sm": { max: "639px" },
-        "sm-bw": {min: '640px', max: '767px'},
+        "sm-bw": { min: "640px", max: "767px" },
         "md-bw": { min: "768px", max: "1279px" },
       },
       colors: {
@@ -88,6 +88,8 @@ module.exports = {
       },
       fontFamily: {
         sans: [...fontFamily.sans],
+        apple: ["Apple", "sans-serif"],
+        rokaf: ["RokafSans", "sans-serif"],
       },
       fontSize: {
         xss: ["8px", "9.5px"],
