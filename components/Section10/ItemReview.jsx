@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function ItemReview({ index, avatar, accName, comment }) {
     return (
-        <div className="flex items-center sm:mt-[50px] mt-5 sm:mx-[54px] mx-5">
+        <div className="flex items-center sm:mt-[50px] mt-5 sm:mx-[54px] mx-5 font-apple">
             {
                 index % 2 === 0 &&
                 <img
@@ -27,8 +27,8 @@ export default function ItemReview({ index, avatar, accName, comment }) {
                 }
 
                 <div className={`${index % 2 === 0 ? "bg-[#ff9900] ml-[33px]" : "bg-[#ffc700] mr-[33px]"} py-6 px-10 rounded-[30px] flex flex-col`}>
-                    <div className={`${index % 2 === 0 ? "text-white" : "text-black"} text-[18px] font-normal leading-[26px]`}>{accName}</div>
-                    <div className={`${index % 2 === 0 ? "text-[#af6412]" : "text-[#af8d12]"} text-[18px] font-normal leading-[26px]`}>{comment}</div>
+                    <div className={`font-appleEB00 ${index % 2 === 0 ? "text-white" : "text-black"} text-[18px] font-normal leading-[26px]`}>{accName}</div>
+                    <div className={`font-appleR00 ${index % 2 === 0 ? "text-[#af6412]" : "text-[#af8d12]"} text-[18px] font-normal leading-[26px]`} dangerouslySetInnerHTML={{ __html: comment }} />
                 </div>
                 {
                     index % 2 != 0 &&
