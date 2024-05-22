@@ -3,6 +3,14 @@
   src: url("/fonts/rokaf/ROKAF-Slab-Serif-Bold.ttf"), format("truetype");
 }
 @font-face {
+  font-family: "AppleB00";
+  src: url("/fonts/font-apple/GothicB.ttf"), format("truetype");
+}
+@font-face {
+  font-family: "AppleEB00";
+  src: url("/fonts/font-apple/gothicneoEB.ttf"), format("truetype");
+}
+@font-face {
   font-family: "Apple";
   src: url("/fonts/font-apple/85ba110e6b8d4c2e961f21ef648d27ea.ttf"), format("truetype");
 }
