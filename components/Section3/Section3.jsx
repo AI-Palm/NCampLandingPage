@@ -104,7 +104,7 @@ function Section3() {
       {/* direction bar */}
       <div className="">
         <button className="w-[500px] -sm:w-auto h-[76px]  bg-[#FF9900] justify-center shrink-0 flex flex-row gap-8 -sm:gap-4  items-center rounded-full -sm:px-9">
-          <p className="text-white text-center text-3xl -sm:text-base font-normal not-italic">
+          <p className="text-white font-appleEB00 text-center text-3xl -sm:text-base font-normal not-italic">
             수료생 프로젝트 보러가기
           </p>
           <svg
