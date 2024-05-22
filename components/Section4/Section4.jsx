@@ -46,7 +46,7 @@ function Section4() {
             </div>
 
             <motion.div
-              className="w-[288px] font-apple mx-auto -sm:py-3 -sm:ml-10 -sm:w-full -sm:h-auto -sm:pr-4 -sm:shrink "
+              className="w-[288px] font-appleR00 mx-auto -sm:py-3 -sm:ml-10 -sm:w-full -sm:h-auto -sm:pr-4 -sm:shrink "
               variants={boxVariant}
               initial="initial"
               whileInView="animate"
@@ -87,7 +87,7 @@ function Section4() {
             </div>
 
             <motion.div
-              className="w-[288px] font-apple mx-auto -sm:py-3 -sm:ml-10 -sm:w-full -sm:h-auto -sm:pr-4 -sm:shrink "
+              className="w-[288px] font-appleR00 mx-auto -sm:py-3 -sm:ml-10 -sm:w-full -sm:h-auto -sm:pr-4 -sm:shrink "
               variants={boxVariant}
               initial="initial"
               whileInView="animate"
@@ -128,7 +128,7 @@ function Section4() {
             </div>
 
             <motion.div
-              className="w-[288px] font-apple mx-auto -sm:py-3 -sm:ml-10 -sm:w-full -sm:h-auto -sm:pr-4 -sm:shrink "
+              className="w-[288px] font-appleR00 mx-auto -sm:py-3 -sm:ml-10 -sm:w-full -sm:h-auto -sm:pr-4 -sm:shrink "
               variants={boxVariant}
               initial="initial"
               whileInView="animate"
@@ -169,7 +169,7 @@ function Section4() {
             </div>
 
             <motion.div
-              className="w-[288px] font-apple mx-auto -sm:py-3 -sm:ml-10 -sm:w-full -sm:h-auto -sm:pr-4 -sm:shrink "
+              className="w-[288px] font-appleR00 mx-auto -sm:py-3 -sm:ml-10 -sm:w-full -sm:h-auto -sm:pr-4 -sm:shrink "
               variants={boxVariant}
               initial="initial"
               whileInView="animate"
@@ -210,7 +210,7 @@ function Section4() {
             </div>
 
             <motion.div
-              className="w-[288px] font-apple mx-auto -sm:py-3 -sm:ml-10 -sm:w-full -sm:h-auto -sm:pr-4 -sm:shrink "
+              className="w-[288px] font-appleR00 mx-auto -sm:py-3 -sm:ml-10 -sm:w-full -sm:h-auto -sm:pr-4 -sm:shrink "
               variants={boxVariant}
               initial="initial"
               whileInView="animate"
@@ -251,7 +251,7 @@ function Section4() {
             </div>
 
             <motion.div
-              className="w-[288px] font-apple mx-auto -sm:py-3 -sm:ml-10 -sm:w-full -sm:h-auto -sm:pr-4 -sm:shrink "
+              className="w-[288px] font-appleR00 mx-auto -sm:py-3 -sm:ml-10 -sm:w-full -sm:h-auto -sm:pr-4 -sm:shrink "
               variants={boxVariant}
               initial="initial"
               whileInView="animate"
