@@ -51,7 +51,7 @@ function Section4() {
               initial="initial"
               whileInView="animate"
             >
-              <p className=" text-center -sm:text-left text-white text-3xl -sm:text-sm font-normal mb-6 -sm:mb-[3px] -sm:text-[#FF9900]">
+              <p className=" text-center font-appleB00 -sm:text-left text-white text-3xl -sm:text-sm font-normal mb-6 -sm:mb-[3px] -sm:text-[#FF9900]">
                 강요천 강사님
               </p>
               <ul className=" text-white list-disc text-xl -sm:text-[11px] -sm:leading-4 -sm:text-left -sm:font-normal -sm:tracking-tight ">
@@ -92,7 +92,7 @@ function Section4() {
               initial="initial"
               whileInView="animate"
             >
-              <p className=" text-center -sm:text-left text-white text-3xl -sm:text-sm font-normal mb-6 -sm:mb-[3px] -sm:text-[#FF9900]">
+              <p className=" text-center font-appleB00 -sm:text-left text-white text-3xl -sm:text-sm font-normal mb-6 -sm:mb-[3px] -sm:text-[#FF9900]">
                 강요천 강사님
               </p>
               <ul className=" text-white list-disc text-xl -sm:text-[11px] -sm:leading-4 -sm:text-left -sm:font-normal -sm:tracking-tight ">
@@ -133,7 +133,7 @@ function Section4() {
               initial="initial"
               whileInView="animate"
             >
-              <p className=" text-center -sm:text-left text-white text-3xl -sm:text-sm font-normal mb-6 -sm:mb-[3px] -sm:text-[#FF9900]">
+              <p className=" text-center font-appleB00 -sm:text-left text-white text-3xl -sm:text-sm font-normal mb-6 -sm:mb-[3px] -sm:text-[#FF9900]">
                 강요천 강사님
               </p>
               <ul className=" text-white list-disc text-xl -sm:text-[11px] -sm:leading-4 -sm:text-left -sm:font-normal -sm:tracking-tight ">
@@ -174,7 +174,7 @@ function Section4() {
               initial="initial"
               whileInView="animate"
             >
-              <p className=" text-center -sm:text-left text-white text-3xl -sm:text-sm font-normal mb-6 -sm:mb-[3px] -sm:text-[#FF9900]">
+              <p className=" text-center font-appleB00 -sm:text-left text-white text-3xl -sm:text-sm font-normal mb-6 -sm:mb-[3px] -sm:text-[#FF9900]">
                 강요천 강사님
               </p>
               <ul className=" text-white list-disc text-xl -sm:text-[11px] -sm:leading-4 -sm:text-left -sm:font-normal -sm:tracking-tight ">
@@ -215,7 +215,7 @@ function Section4() {
               initial="initial"
               whileInView="animate"
             >
-              <p className=" text-center -sm:text-left text-white text-3xl -sm:text-sm font-normal mb-6 -sm:mb-[3px] -sm:text-[#FF9900]">
+              <p className=" text-center font-appleB00 -sm:text-left text-white text-3xl -sm:text-sm font-normal mb-6 -sm:mb-[3px] -sm:text-[#FF9900]">
                 강요천 강사님
               </p>
               <ul className=" text-white list-disc text-xl -sm:text-[11px] -sm:leading-4 -sm:text-left -sm:font-normal -sm:tracking-tight ">
@@ -256,7 +256,7 @@ function Section4() {
               initial="initial"
               whileInView="animate"
             >
-              <p className=" text-center -sm:text-left text-white text-3xl -sm:text-sm font-normal mb-6 -sm:mb-[3px] -sm:text-[#FF9900]">
+              <p className=" text-center font-appleB00 -sm:text-left text-white text-3xl -sm:text-sm font-normal mb-6 -sm:mb-[3px] -sm:text-[#FF9900]">
                 강요천 강사님
               </p>
               <ul className=" text-white list-disc text-xl -sm:text-[11px] -sm:leading-4 -sm:text-left -sm:font-normal -sm:tracking-tight ">

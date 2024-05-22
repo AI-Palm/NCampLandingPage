@@ -28,7 +28,7 @@ function Section7() {
         </motion.div>
         <div className="w-[333px] -sm:w-auto h-auto  text-center flex flex-col justify-center ">
           <div className="w-auto h-auto relative flex flex-col  gap-y-2 -sm:gap-y-1 font-apple">
-            <p className="text-[#F90] text-3xl -sm:text-base -sm:pl-20 pl-24">
+            <p className="text-[#F90] font-appleB00 text-3xl -sm:text-base -sm:pl-20 pl-24">
               커리어로드맵 설계
             </p>
             <div className="h-[7px] ">
@@ -49,7 +49,7 @@ function Section7() {
       <div className="w-full h-[342.48px]  -sm:h-auto -sm:px-8 relative flex mx-auto -sm:mb-8 justify-center gap-4">
         <div className="w-[333px] -sm:w-[260px] h-auto text-center flex flex-col justify-center">
           <div className="w-auto h-auto relative flex flex-col gap-y-2 -sm:gap-y-1 font-apple">
-            <p className="text-[#F90] text-3xl -sm:text-base pr-24 -sm:pr-20">
+            <p className="text-[#F90] font-appleB00 text-3xl -sm:text-base pr-24 -sm:pr-20">
               시대가 원하는 개발자
             </p>
             <div className="h-[7px] ">
@@ -100,7 +100,7 @@ function Section7() {
         </motion.div>
         <div className="w-[333px] -sm:w-auto h-auto  text-center flex flex-col justify-center ">
           <div className="w-auto h-auto relative flex flex-col  gap-y-2 -sm:gap-y-1 font-apple">
-            <p className="text-[#F90] text-3xl -sm:text-base pl-24 -sm:pl-20">
+            <p className="text-[#F90] font-appleB00 text-3xl -sm:text-base pl-24 -sm:pl-20">
               커리어로드맵 설계
             </p>
             <div className="h-[7px] ">

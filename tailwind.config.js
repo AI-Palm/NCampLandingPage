@@ -90,6 +90,8 @@ module.exports = {
         sans: [...fontFamily.sans],
         apple: ["Apple", "sans-serif"],
         rokaf: ["RokafSans", "sans-serif"],
+        appleB00: ["AppleB00", "sans-serif"],
+        appleEB00: ["AppleEB00", "sans-serif"]
       },
       fontSize: {
         xss: ["8px", "9.5px"],
