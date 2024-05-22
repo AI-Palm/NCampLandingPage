@@ -7,16 +7,16 @@ export default function Section8() {
     <div className="main">
       <div className="flex-1 h-[103px] bg-[#ff9900] mb-[87px]" />
       <motion.div
-        className="flex-1 flex-col justify-center"
+        className="flex-1 flex-col justify-center text-center font-rokaf text-5xl font-bold leading-normal"
         initial={{ opacity: 0, y: -100 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.4 }}
         viewport={{ once: true, amount: 0.5 }}
       >
-        <div className="text-center text-white text-5xl font-bold leading-normal">
+        <div className="text-white">
           취업한 선배 수료생들과의
         </div>
-        <div className="text-center text-[#ff9900] text-5xl font-bold leading-normal">
+        <div className="text-[#ff9900]">
           1:1 멘토링
         </div>
       </motion.div>
@@ -64,12 +64,12 @@ export default function Section8() {
             transition={{ duration: 0.4 }}
             viewport={{ once: true, amount: 0.5 }}
           >
-            <div className="absolute z-10  top-0 left-0 py-[8px] px-[30px] bg-black rounded-t-[19px] text-[30px] text-[#ff9900] font-bold leading-normal text-center">
+            <div className="absolute z-10  top-0 left-0 py-[8px] px-[30px] bg-black rounded-t-[19px] font-rokaf text-[30px] text-[#ff9900] font-bold leading-normal text-center">
               최재석님
               <br />
               AWS과정
             </div>
-            <div className="flex-col mt-8 pt-[151px] pb-[100px] px-[33px] bg-black rounded-[19px]">
+            <div className="flex-col mt-8 pt-[151px] pb-[100px] px-[33px] bg-black rounded-[19px] font-apple">
               <div className="text-white text-[22px] leading-8 font-normal">
                 이런 내용을 공유해요!
               </div>
@@ -143,12 +143,12 @@ export default function Section8() {
             transition={{ duration: 0.4 }}
             viewport={{ once: true, amount: 0.5 }}
           >
-            <div className="absolute z-10  top-0 right-0 py-[8px] px-[30px] bg-black rounded-t-[19px] text-[30px] text-[#ff9900] font-bold leading-normal text-center">
+            <div className="absolute z-10  top-0 right-0 py-[8px] px-[30px] bg-black rounded-t-[19px] font-rokaf text-[30px] text-[#ff9900] font-bold leading-normal text-center">
               최재석님
               <br />
               AWS과정
             </div>
-            <div className="flex-col mt-8 pt-[161px] pb-[100px] px-[33px] bg-black rounded-[19px]">
+            <div className="flex-col mt-8 pt-[161px] pb-[100px] px-[33px] bg-black rounded-[19px] font-apple">
               <div className="text-white text-[22px] leading-8 font-normal">
                 멘토의 한마디
               </div>
@@ -185,7 +185,7 @@ export default function Section8() {
           viewport={{ once: true, amount: 0.5 }}
         >
           <div className="mx-5 py-4 px-16 flex items-center bg-black rounded-full">
-            <div className="mr-[58px] text-[#ff9900] text-[30px] font-normal leading-normal">
+            <div className="mr-[58px] font-apple text-[#ff9900] text-[30px] font-normal leading-normal">
               멘토의 인터뷰 보러가기
             </div>
             <svg
