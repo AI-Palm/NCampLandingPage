@@ -17,7 +17,7 @@ export default function Section11() {
           className="w-[42%] aspect-square object-cover"
         />
         <motion.div
-          className="ml-5 font-apple text-[#adadad] text-[25px] font-normal leading-[35px]"
+          className="ml-5 font-appleR00 text-[#adadad] text-[25px] font-normal leading-[35px]"
           initial={{ opacity: 0, x: 100 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.4 }}
@@ -25,14 +25,14 @@ export default function Section11() {
         >
           30여 년 동안
           <br />
-          <span className="text-white">개발자 양성</span>을 위해
+          <span className="font-appleB00 text-white">개발자 양성</span>을 위해
           <br />
           지금까지 달려왔습니다.
         </motion.div>
       </div>
       <div className="mt-[55px] flex justify-around items-end">
         <motion.div
-          className="mr-5 font-apple text-white text-[25px] font-normal leading-[35px]"
+          className="mr-5 font-appleB00 text-white text-[25px] font-normal leading-[35px]"
           initial={{ opacity: 0, x: -100 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.4 }}
@@ -41,7 +41,7 @@ export default function Section11() {
           네이버클라우드 파트너사,
           <br />
           일본 IT 기업 채용연계
-          <span className="text-[#adadad]">
+          <span className="font-appleR00 text-[#adadad]">
             를<br />
             시작으로
           </span>
@@ -59,7 +59,7 @@ export default function Section11() {
           className="w-[42%] aspect-square object-cover"
         />
         <motion.div
-          className="ml-5 font-apple text-[#adadad] text-[25px] font-normal leading-[35px]"
+          className="ml-5 font-appleR00 text-[#adadad] text-[25px] font-normal leading-[35px]"
           initial={{ opacity: 0, x: 100 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.4 }}
@@ -67,7 +67,7 @@ export default function Section11() {
         >
           소통의 장을 마련하고자
           <br />
-          <span className="text-white">
+          <span className="font-appleB00 text-white">
             현업 개발자분들과 멘토링,
             <br />
             특강
@@ -77,7 +77,7 @@ export default function Section11() {
       </div>
       <div className="mt-[55px] flex justify-around items-end">
         <motion.div
-          className="mr-5 font-apple text-[#adadad] text-[25px] font-normal leading-[35px]"
+          className="mr-5 font-appleR00 text-[#adadad] text-[25px] font-normal leading-[35px]"
           initial={{ opacity: 0, x: -100 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.4 }}
@@ -85,7 +85,7 @@ export default function Section11() {
         >
           수료가 끝이 아닌
           <br />
-          <span className="text-white">새로운 시작</span>이 될 수 있도록
+          <span className="font-appleB00 text-white">새로운 시작</span>이 될 수 있도록
           <br />
           ncamp가 항상 노력하겠습니다.
         </motion.div>

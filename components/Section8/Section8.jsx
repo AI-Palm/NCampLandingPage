@@ -69,11 +69,11 @@ export default function Section8() {
               <br />
               AWS과정
             </div>
-            <div className="flex-col mt-8 pt-[151px] pb-[100px] px-[33px] bg-black rounded-[19px] font-apple">
-              <div className="text-white text-[22px] leading-8 font-normal">
+            <div className="flex-col mt-8 pt-[151px] pb-[100px] px-[33px] bg-black rounded-[19px]">
+              <div className="font-appleM00 text-white text-[22px] leading-8 font-normal">
                 이런 내용을 공유해요!
               </div>
-              <ul class="list-disc list-outside ml-6 mt-[9px] text-[#adadad] text-[20px] leading-[30px] font-normal">
+              <ul class="list-disc list-outside ml-6 mt-[9px] font-appleR00 text-[#adadad] text-[20px] leading-[30px] font-normal">
                 <li>
                   스타트업의 백엔드 개발자로서,{" "}
                   <span className="text-white">
@@ -88,10 +88,10 @@ export default function Section8() {
                   하고자 노력한 경험
                 </li>
               </ul>
-              <div className="mt-10 text-white text-[22px] leading-8 font-normal">
+              <div className="mt-10 font-appleM00 text-white text-[22px] leading-8 font-normal">
                 멘토의 한마디
               </div>
-              <ul class="list-disc list-outside ml-6 mt-[9px] text-[#adadad] text-[20px] leading-[30px] font-normal">
+              <ul class="list-disc list-outside ml-6 mt-[9px] font-appleR00 text-[#adadad] text-[20px] leading-[30px] font-normal">
                 <li>
                   요즘 점점 취업문이 좁아지는 것 같지만, 포기하지 마시고
                   여러가지 방향으로 문을 두드리셨으면 좋겠습니다
@@ -148,11 +148,11 @@ export default function Section8() {
               <br />
               AWS과정
             </div>
-            <div className="flex-col mt-8 pt-[161px] pb-[100px] px-[33px] bg-black rounded-[19px] font-apple">
-              <div className="text-white text-[22px] leading-8 font-normal">
+            <div className="flex-col mt-8 pt-[161px] pb-[100px] px-[33px] bg-black rounded-[19px]">
+              <div className="font-appleM00 text-white text-[22px] leading-8 font-normal">
                 멘토의 한마디
               </div>
-              <ul class="list-disc list-outside ml-6 mt-[9px] text-[#adadad] text-[20px] leading-[30px] font-normal">
+              <ul class="list-disc list-outside ml-6 mt-[9px] font-appleR00 text-[#adadad] text-[20px] leading-[30px] font-normal">
                 <li>
                   세번의 프로젝트를{" "}
                   <span className="text-white">효율적으로 이끈 리더십</span>{" "}
@@ -162,10 +162,10 @@ export default function Section8() {
                   </span>
                 </li>
               </ul>
-              <div className="mt-10 text-white text-[22px] leading-8 font-normal">
+              <div className="mt-10 font-appleM00 text-white text-[22px] leading-8 font-normal">
                 멘토의 한마디
               </div>
-              <ul class="list-disc list-outside ml-6 mt-[9px] text-[#adadad] text-[20px] leading-[30px] font-normal">
+              <ul class="list-disc list-outside ml-6 mt-[9px] font-appleR00 text-[#adadad] text-[20px] leading-[30px] font-normal">
                 <li>
                   프로젝트 내용을 잘 정리하고{" "}
                   <span className="text-white">
@@ -185,7 +185,7 @@ export default function Section8() {
           viewport={{ once: true, amount: 0.5 }}
         >
           <div className="mx-5 py-4 px-16 flex items-center bg-black rounded-full">
-            <div className="mr-[58px] font-apple text-[#ff9900] text-[30px] font-normal leading-normal">
+            <div className="mr-[58px] font-appleEB00 text-[#ff9900] text-[30px] font-normal leading-normal">
               멘토의 인터뷰 보러가기
             </div>
             <svg

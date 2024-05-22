@@ -48,7 +48,7 @@ export default function Section10() {
                                 <div className="w-[2px] h-full bg-white absolute left-1/2" />
                             </div>
                             <div className="grow flex justify-end bg-[#FFFFFF1A] border border-white rounded-full">
-                                <div className="font-apple text-black text-[22px] font-normal leading-normal sm:py-6 py-4 sm:px-11 px-8 bg-white rounded-full">전송</div>
+                                <div className="font-appleR00 text-black text-[22px] font-normal leading-normal sm:py-6 py-4 sm:px-11 px-8 bg-white rounded-full">전송</div>
                             </div>
                         </div>
                     </div>
