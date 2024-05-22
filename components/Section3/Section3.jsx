@@ -30,7 +30,7 @@ function Section3() {
         </div>
         <p className="text-white font-rokaf">IT 교육 노하우로 교육 진행</p>
       </div>
-      <div className="w-[620px] font-apple -sm:w-auto leading-[30px] -sm:leading-[23px] text-xl -sm:text-[13.5px] text-center not-italic font-normal mb-[42px]">
+      <div className="w-[620px] font-appleR00 -sm:w-auto leading-[30px] -sm:leading-[23px] text-xl -sm:text-[13.5px] text-center not-italic font-normal mb-[42px]">
         <span className="text-[#ADADAD]">
           ncamp(비트캠프 강남센터)는 클라우드는 물론이고 <br></br> 지난 30여년
           동안
@@ -61,7 +61,7 @@ function Section3() {
       </div>
 
       {/* description */}
-      <div className="w-[620px]  font-apple -sm:w-auto h-auto leading-[30px] -sm:leading-[23px] -sm:text-[13.5px]  text-xl text-center not-italic font-normal mb-14">
+      <div className="w-[620px]  font-appleR00 -sm:w-auto h-auto leading-[30px] -sm:leading-[23px] -sm:text-[13.5px]  text-xl text-center not-italic font-normal mb-14">
         <span className="text-[#ADADAD]">
           이처럼 ncamp(비트캠프 강남센터)에서는 기초나 이론도 물론 중요하지만
           이를 활용하고
@@ -88,7 +88,7 @@ function Section3() {
       </motion.div>
 
       {/* description */}
-      <div className="w-[620px] h-auto mb-[104px] leading-[30px] -sm:leading-[23px] -sm:text-[13.5px] font-apple -sm:w-auto text-xl text-center not-italic font-normal">
+      <div className="w-[620px] h-auto mb-[104px] leading-[30px] -sm:leading-[23px] -sm:text-[13.5px] font-appleR00 -sm:w-auto text-xl text-center not-italic font-normal">
         <span className="text-[#ADADAD]">
           세월이 흔적이 느껴지는 다양한 Java 웹개발 프로젝트들을 <br />
         </span>{" "}
