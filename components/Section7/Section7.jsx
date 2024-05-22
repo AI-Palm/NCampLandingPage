@@ -27,8 +27,8 @@ function Section7() {
           />
         </motion.div>
         <div className="w-[333px] -sm:w-auto h-auto  text-center flex flex-col justify-center ">
-          <div className="w-auto h-auto relative flex flex-col  gap-y-2 -sm:gap-y-1 font-apple">
-            <p className="text-[#F90] text-3xl -sm:text-base -sm:pl-20 pl-24">
+          <div className="w-auto h-auto relative flex flex-col  gap-y-2 -sm:gap-y-1 font-appleR00">
+            <p className="text-[#F90] font-appleB00 text-3xl -sm:text-base -sm:pl-20 pl-24">
               커리어로드맵 설계
             </p>
             <div className="h-[7px] ">
@@ -48,8 +48,8 @@ function Section7() {
       {/* section 2 */}
       <div className="w-full h-[342.48px]  -sm:h-auto -sm:px-8 relative flex mx-auto -sm:mb-8 justify-center gap-4">
         <div className="w-[333px] -sm:w-[260px] h-auto text-center flex flex-col justify-center">
-          <div className="w-auto h-auto relative flex flex-col gap-y-2 -sm:gap-y-1 font-apple">
-            <p className="text-[#F90] text-3xl -sm:text-base pr-24 -sm:pr-20">
+          <div className="w-auto h-auto relative flex flex-col gap-y-2 -sm:gap-y-1 font-appleR00">
+            <p className="text-[#F90] font-appleB00 text-3xl -sm:text-base pr-24 -sm:pr-20">
               시대가 원하는 개발자
             </p>
             <div className="h-[7px] ">
@@ -99,8 +99,8 @@ function Section7() {
           />
         </motion.div>
         <div className="w-[333px] -sm:w-auto h-auto  text-center flex flex-col justify-center ">
-          <div className="w-auto h-auto relative flex flex-col  gap-y-2 -sm:gap-y-1 font-apple">
-            <p className="text-[#F90] text-3xl -sm:text-base pl-24 -sm:pl-20">
+          <div className="w-auto h-auto relative flex flex-col  gap-y-2 -sm:gap-y-1 font-appleR00">
+            <p className="text-[#F90] font-appleB00 text-3xl -sm:text-base pl-24 -sm:pl-20">
               커리어로드맵 설계
             </p>
             <div className="h-[7px] ">
@@ -119,7 +119,7 @@ function Section7() {
       {/* section 3 */}
 
       <button className="w-[500px] -sm:w-auto h-[76px] mb-72  bg-[#FF9900] justify-center shrink-0 flex flex-row gap-8  items-center rounded-full -sm:px-8">
-        <p className="text-white text-center text-3xl -sm:text-base font-normal not-italic font-apple">
+        <p className="text-white text-center text-3xl -sm:text-base font-normal not-italic font-appleR00">
           특강 브이로그 보러가기
         </p>
         <svg

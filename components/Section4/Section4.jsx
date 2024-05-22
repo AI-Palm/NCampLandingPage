@@ -46,12 +46,12 @@ function Section4() {
             </div>
 
             <motion.div
-              className="w-[288px] font-apple mx-auto -sm:py-3 -sm:ml-10 -sm:w-full -sm:h-auto -sm:pr-4 -sm:shrink "
+              className="w-[288px] font-appleR00 mx-auto -sm:py-3 -sm:ml-10 -sm:w-full -sm:h-auto -sm:pr-4 -sm:shrink "
               variants={boxVariant}
               initial="initial"
               whileInView="animate"
             >
-              <p className=" text-center -sm:text-left text-white text-3xl -sm:text-sm font-normal mb-6 -sm:mb-[3px] -sm:text-[#FF9900]">
+              <p className=" text-center font-appleB00 -sm:text-left text-white text-3xl -sm:text-sm font-normal mb-6 -sm:mb-[3px] -sm:text-[#FF9900]">
                 강요천 강사님
               </p>
               <ul className=" text-white list-disc text-xl -sm:text-[11px] -sm:leading-4 -sm:text-left -sm:font-normal -sm:tracking-tight ">
@@ -87,12 +87,12 @@ function Section4() {
             </div>
 
             <motion.div
-              className="w-[288px] font-apple mx-auto -sm:py-3 -sm:ml-10 -sm:w-full -sm:h-auto -sm:pr-4 -sm:shrink "
+              className="w-[288px] font-appleR00 mx-auto -sm:py-3 -sm:ml-10 -sm:w-full -sm:h-auto -sm:pr-4 -sm:shrink "
               variants={boxVariant}
               initial="initial"
               whileInView="animate"
             >
-              <p className=" text-center -sm:text-left text-white text-3xl -sm:text-sm font-normal mb-6 -sm:mb-[3px] -sm:text-[#FF9900]">
+              <p className=" text-center font-appleB00 -sm:text-left text-white text-3xl -sm:text-sm font-normal mb-6 -sm:mb-[3px] -sm:text-[#FF9900]">
                 강요천 강사님
               </p>
               <ul className=" text-white list-disc text-xl -sm:text-[11px] -sm:leading-4 -sm:text-left -sm:font-normal -sm:tracking-tight ">
@@ -128,12 +128,12 @@ function Section4() {
             </div>
 
             <motion.div
-              className="w-[288px] font-apple mx-auto -sm:py-3 -sm:ml-10 -sm:w-full -sm:h-auto -sm:pr-4 -sm:shrink "
+              className="w-[288px] font-appleR00 mx-auto -sm:py-3 -sm:ml-10 -sm:w-full -sm:h-auto -sm:pr-4 -sm:shrink "
               variants={boxVariant}
               initial="initial"
               whileInView="animate"
             >
-              <p className=" text-center -sm:text-left text-white text-3xl -sm:text-sm font-normal mb-6 -sm:mb-[3px] -sm:text-[#FF9900]">
+              <p className=" text-center font-appleB00 -sm:text-left text-white text-3xl -sm:text-sm font-normal mb-6 -sm:mb-[3px] -sm:text-[#FF9900]">
                 강요천 강사님
               </p>
               <ul className=" text-white list-disc text-xl -sm:text-[11px] -sm:leading-4 -sm:text-left -sm:font-normal -sm:tracking-tight ">
@@ -169,12 +169,12 @@ function Section4() {
             </div>
 
             <motion.div
-              className="w-[288px] font-apple mx-auto -sm:py-3 -sm:ml-10 -sm:w-full -sm:h-auto -sm:pr-4 -sm:shrink "
+              className="w-[288px] font-appleR00 mx-auto -sm:py-3 -sm:ml-10 -sm:w-full -sm:h-auto -sm:pr-4 -sm:shrink "
               variants={boxVariant}
               initial="initial"
               whileInView="animate"
             >
-              <p className=" text-center -sm:text-left text-white text-3xl -sm:text-sm font-normal mb-6 -sm:mb-[3px] -sm:text-[#FF9900]">
+              <p className=" text-center font-appleB00 -sm:text-left text-white text-3xl -sm:text-sm font-normal mb-6 -sm:mb-[3px] -sm:text-[#FF9900]">
                 강요천 강사님
               </p>
               <ul className=" text-white list-disc text-xl -sm:text-[11px] -sm:leading-4 -sm:text-left -sm:font-normal -sm:tracking-tight ">
@@ -210,12 +210,12 @@ function Section4() {
             </div>
 
             <motion.div
-              className="w-[288px] font-apple mx-auto -sm:py-3 -sm:ml-10 -sm:w-full -sm:h-auto -sm:pr-4 -sm:shrink "
+              className="w-[288px] font-appleR00 mx-auto -sm:py-3 -sm:ml-10 -sm:w-full -sm:h-auto -sm:pr-4 -sm:shrink "
               variants={boxVariant}
               initial="initial"
               whileInView="animate"
             >
-              <p className=" text-center -sm:text-left text-white text-3xl -sm:text-sm font-normal mb-6 -sm:mb-[3px] -sm:text-[#FF9900]">
+              <p className=" text-center font-appleB00 -sm:text-left text-white text-3xl -sm:text-sm font-normal mb-6 -sm:mb-[3px] -sm:text-[#FF9900]">
                 강요천 강사님
               </p>
               <ul className=" text-white list-disc text-xl -sm:text-[11px] -sm:leading-4 -sm:text-left -sm:font-normal -sm:tracking-tight ">
@@ -251,12 +251,12 @@ function Section4() {
             </div>
 
             <motion.div
-              className="w-[288px] font-apple mx-auto -sm:py-3 -sm:ml-10 -sm:w-full -sm:h-auto -sm:pr-4 -sm:shrink "
+              className="w-[288px] font-appleR00 mx-auto -sm:py-3 -sm:ml-10 -sm:w-full -sm:h-auto -sm:pr-4 -sm:shrink "
               variants={boxVariant}
               initial="initial"
               whileInView="animate"
             >
-              <p className=" text-center -sm:text-left text-white text-3xl -sm:text-sm font-normal mb-6 -sm:mb-[3px] -sm:text-[#FF9900]">
+              <p className=" text-center font-appleB00 -sm:text-left text-white text-3xl -sm:text-sm font-normal mb-6 -sm:mb-[3px] -sm:text-[#FF9900]">
                 강요천 강사님
               </p>
               <ul className=" text-white list-disc text-xl -sm:text-[11px] -sm:leading-4 -sm:text-left -sm:font-normal -sm:tracking-tight ">
