@@ -14,6 +14,10 @@
   font-family: "Apple";
   src: url("/fonts/font-apple/85ba110e6b8d4c2e961f21ef648d27ea.ttf"), format("truetype");
 }
+@font-face {
+  font-family: "AppleM00";
+  src: url("/fonts/font-apple/AppleSDGothicNeoM00.ttf"), format("truetype");
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
