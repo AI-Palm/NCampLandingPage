@@ -20,10 +20,9 @@ function Section4() {
         <p className=" font-bold text-white">강사진 소개</p>
       </div>
       <div ref={ref} className=" shrink-0 mx-auto">
-        <div className="w-[692px] -sm:w-[330px] container -sm:p-0 grid grid-cols-2  gap-24 -sm:gap-x-0 -sm:gap-y-4 -sm:justify-center h-auto mx-auto">
+        <div className="w-[692px] -sm:w-[330px] -md:w-auto container -sm:p-0 grid grid-cols-2  gap-24 -sm:gap-x-0 -sm:gap-y-4 -md:gap-y-4 -md:justify-center h-auto mx-auto">
           <div
-            className="w-[322.76px] -sm:w-[330px] -sm:gap-9 -sm: relative flex flex-col -sm:flex-row -sm:h-[120px] mx-auto 
-          -sm:col-span-2 -sm:rounded-full -sm:border-[#FF9900] -sm:border
+            className="w-[322.76px] -sm:w-[330px] -md:w-full -sm:gap-9 -sm: relative flex flex-col -md:flex-row -sm:h-[120px] mx-auto -sm:col-span-2 -md:col-span-2 -sm:rounded-full -sm:border-[#FF9900] -sm:border
             "
           >
             <div className="w-[120px] h-[322.76px] -sm:h-auto mb-6 -sm:order-last">
@@ -63,8 +62,7 @@ function Section4() {
           </div>
           {/* instructor 2 */}
           <div
-            className="w-[322.76px] -sm:w-[330px] -sm:gap-9 -sm: relative flex flex-col -sm:flex-row -sm:h-[120px] mx-auto 
-          -sm:col-span-2 -sm:rounded-full -sm:border-[#FF9900] -sm:border
+            className="w-[322.76px] -sm:w-[330px] -md:w-full -sm:gap-9 -sm: relative flex flex-col -md:flex-row -sm:h-[120px] mx-auto -sm:col-span-2 -md:col-span-2 -sm:rounded-full -sm:border-[#FF9900] -sm:border
             "
           >
             <div className="w-[120px] h-[322.76px] -sm:h-auto mb-6 -sm:order-last">
@@ -104,8 +102,7 @@ function Section4() {
           </div>
           {/* instructor 3 */}
           <div
-            className="w-[322.76px] -sm:w-[330px] -sm:gap-9 -sm: relative flex flex-col -sm:flex-row -sm:h-[120px] mx-auto 
-          -sm:col-span-2 -sm:rounded-full -sm:border-[#FF9900] -sm:border
+            className="w-[322.76px] -sm:w-[330px] -md:w-full -sm:gap-9 -sm: relative flex flex-col -md:flex-row -sm:h-[120px] mx-auto -sm:col-span-2 -md:col-span-2 -sm:rounded-full -sm:border-[#FF9900] -sm:border
             "
           >
             <div className="w-[120px] h-[322.76px] -sm:h-auto mb-6 -sm:order-last">
@@ -145,8 +142,7 @@ function Section4() {
           </div>
           {/* instructor 4 */}
           <div
-            className="w-[322.76px] -sm:w-[330px] -sm:gap-9 -sm: relative flex flex-col -sm:flex-row -sm:h-[120px] mx-auto 
-          -sm:col-span-2 -sm:rounded-full -sm:border-[#FF9900] -sm:border
+            className="w-[322.76px] -sm:w-[330px] -md:w-full -sm:gap-9 -sm: relative flex flex-col -md:flex-row -sm:h-[120px] mx-auto -sm:col-span-2 -md:col-span-2 -sm:rounded-full -sm:border-[#FF9900] -sm:border
             "
           >
             <div className="w-[120px] h-[322.76px] -sm:h-auto mb-6 -sm:order-last">
@@ -186,8 +182,7 @@ function Section4() {
           </div>
           {/* instructor 5 */}
           <div
-            className="w-[322.76px] -sm:w-[330px] -sm:gap-9 -sm: relative flex flex-col -sm:flex-row -sm:h-[120px] mx-auto 
-          -sm:col-span-2 -sm:rounded-full -sm:border-[#FF9900] -sm:border
+            className="w-[322.76px] -sm:w-[330px] -md:w-full -sm:gap-9 -sm: relative flex flex-col -md:flex-row -sm:h-[120px] mx-auto -sm:col-span-2 -md:col-span-2 -sm:rounded-full -sm:border-[#FF9900] -sm:border
             "
           >
             <div className="w-[120px] h-[322.76px] -sm:h-auto mb-6 -sm:order-last">
@@ -227,8 +222,7 @@ function Section4() {
           </div>
           {/* instructor 6 */}
           <div
-            className="w-[322.76px] -sm:w-[330px] -sm:gap-9 -sm: relative flex flex-col -sm:flex-row -sm:h-[120px] mx-auto 
-          -sm:col-span-2 -sm:rounded-full -sm:border-[#FF9900] -sm:border
+            className="w-[322.76px] -sm:w-[330px] -md:w-full -sm:gap-9 -sm: relative flex flex-col -md:flex-row -sm:h-[120px] mx-auto -sm:col-span-2 -md:col-span-2 -sm:rounded-full -sm:border-[#FF9900] -sm:border
             "
           >
             <div className="w-[120px] h-[322.76px] -sm:h-auto mb-6 -sm:order-last">
