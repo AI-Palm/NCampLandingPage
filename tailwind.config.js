@@ -96,6 +96,11 @@ module.exports = {
       },
       fontSize: {
         xss: ["8px", "9.5px"],
+        title: ["50px", "24px"],
+        subtitle: ["25px", "35px"],
+        step: ["20px", "28px"],
+        description: ["20px", "35px"],
+
       },
     },
   },

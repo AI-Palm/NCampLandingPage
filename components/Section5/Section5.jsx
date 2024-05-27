@@ -66,7 +66,7 @@ const Section5 = () => {
                                 </div>
                             </div>
 
-                            <div className=" w-full h-auto bg-white/[.1]  border-white/[.1] border-white rounded-3xl p-4 m-4 text-white flex flex-col sm:w-auto md:w-[380px] lg:h-80 md:h-96 "  >
+                            <div className=" w-auto h-auto bg-white/[.1]  border-white/[.1] rounded-3xl p-4 m-4 text-white flex flex-col sm:w-auto md:w-[353px] lg:h-80 md:h-96 "  >
                                 <h1 className="text-sm md:text-base text-[#82DC10] font-appleB00 mt-2  sm:mt-6 mb-4 text-left">
                                     2. 데이터베이스 및 네트워크, 스레드 프로그래밍                                
                                 </h1>
@@ -110,7 +110,7 @@ const Section5 = () => {
                                 </div>
                             </div>
 
-                            <div className=" w-auto h-auto bg-white/[.1]  border-white/[.1] border-white rounded-3xl p-4 m-4 text-white flex flex-col sm:w-auto md:w-[380px] lg:h-80 md:h-96 "  >
+                            <div className=" w-auto h-auto bg-white/[.1]  border-white/[.1] border-white rounded-3xl p-4 m-4 text-white flex flex-col sm:w-auto md:w-[353px] lg:h-80 md:h-96 "  >
                                 <h1 className="text-sm md:text-lg text-[#82DC10] font-appleB00 mt-2  sm:mt-6 mb-4 text-left">
                                     4. 스프링 시큐리티                                
                                 </h1>
@@ -264,7 +264,7 @@ const Section5 = () => {
                            
                         </div>
 
-                        <div className='flex flex-col md:flex-row justify-center items-center'>                      
+                        <div className='flex flex-col md:flex-row justify-center items-center mb-[101px]'>                      
                             <div className=" w-full h-auto  bg-white/[.1]  border-white/[.1] border-white rounded-3xl p-4 m-4 text-white flex flex-col sm:w-full md:w-1/2 lg:w-1/2 lg:h-72 md:h-[24rem] "  >
                                 <h1 className="text-sm md:text-lg text-[#F90] font-appleB00 mt-2  sm:mt-6  mb-4  md:ml-2">
                                     3. AWS 운영서버 및 다운 서버 환경 구성                                </h1>
