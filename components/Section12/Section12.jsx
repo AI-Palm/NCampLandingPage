@@ -30,7 +30,7 @@ const Section12 = () => {
                       stiffness: 360,
                       damping: 100,
                     }}
-                    className='text-white text-4xl mb-20 font-extrabold translate-x-1/2 '
+                    className='text-white text-title mb-20 mt-[86px] font-rokaf font-[700] translate-x-1/2 '
                     >
                     신청방법
                 </motion.h1>
@@ -43,9 +43,9 @@ const Section12 = () => {
                       stiffness: 360,
                       damping: 100,
                     }}
-                    className='text-white font-extrabold mb-8'>
-                    <span className='text-orange-200 font-extrabold'>국민내일배움카드 소지자는</span> 교육비 전액 무료 지원<br />
-                    <span className='text-orange-200 font-extrabold'>매월</span> 지원훈련 장려금도 지급</motion.p>
+                    className='text-white text-subtitle font-appleEB00  font-[400] mb-8 text-center'>
+                    <span className='text-[#FFCA8B] font-appleM00'>국민내일배움카드 소지자는</span> 교육비 전액 무료 지원<br />
+                    <span className='text-[#FFCA8B] font-appleM00'>매월</span> 지원훈련 장려금도 지급</motion.p>
                 <motion.div 
                 ref={roadmapRef}
                 initial={{ opacity: 0, y:180 }}
@@ -57,45 +57,45 @@ const Section12 = () => {
                     delay: 0.5
                    
                   }}
-                className='flex  flex-wrap md:flex-row justify-center w-auto m-4 '>
-                    <div className='flex flex-col justify items-center'>
-                        <div className='flex flex-row items-center'>
+                className='flex  flex-wrap md:flex-row justify-center w-auto m-4 text-step font-[400]'>
+                    <div className='flex flex-col justify items-center '>
+                        <div className='flex flex-row items-center ml-2'>
                             <div className="rounded-full bg-white px-6 py-8  my-4 ml-4">
-                                <div className="text-center text-orange-400">STEP 01 <br /> 수강신청</div>
+                                <div className="text-center font-appleB00 text-[#F90]">STEP 01 <br /> 수강신청</div>
                             </div>
                             <Image src={ArrowIcon} alt="arrow" width={28} height={1} className="m-0" />
                         </div>
-                        <span className='text-white'>신청사이트 <br /> 수강신청</span>
+                        <span className='text-white font-appleR00 text-center'>신청사이트 <br /> 수강신청</span>
                         
                     </div>
                     
-                    <div className='flex flex-col justify-center items-center'>
+                    <div className='flex flex-col justify-center items-center ml-2'>
                         <div className='flex flex-row items-center'>
                             <div className="rounded-full bg-white px-6 py-8 my-4 ml-4">
-                                <div className="text-center text-orange-400">STEP 02 <br /> 수강신청</div>
+                                <div className="text-center font-appleB00 text-[#F90]">STEP 02 <br /> 수강신청</div>
                             </div>
                             <Image src={ArrowIcon} alt="arrow" width={28} height={1} className="m-0" />
 
                         </div>
-                        <span className='text-white'>서류 전형 및<br />사전테스트</span>
+                        <span className='text-white font-appleR00 text-center'>서류 전형 및<br />사전테스트</span>
                     </div>
 
-                    <div className='flex flex-col justify-center items-center'>
+                    <div className='flex flex-col justify-center items-center ml-2'>
                         <div className='flex flex-row items-center'>
                             <div className="rounded-full bg-white px-6 py-8  my-4 ml-4">
-                                <div className="text-center text-orange-400">STEP 03 <br /> 수강신청</div>
+                                <div className="text-center font-appleB00 text-[#F90]">STEP 03 <br /> 수강신청</div>
                             </div>
                             <Image src={ArrowIcon} alt="arrow" width={28} height={1} className="m-0" />
 
                         </div>
-                        <span className='text-white'>면접전형 및 <br/> 인성검사</span>
+                        <span className='text-white font-appleR00 text-center'>면접전형 및 <br/> 인성검사</span>
                     </div>
 
-                    <div className='flex flex-col justify-center items-center'>
+                    <div className='flex flex-col justify-center items-center ml-2'>
                         <div className="rounded-full bg-white px-6 py-8  m-4">
-                            <div className="text-center text-orange-400">STEP 04 <br /> 수강신청</div>
+                            <div className="text-center font-appleB00 text-[#F90]">STEP 04 <br /> 수강신청</div>
                         </div>
-                        <span className='text-white mb-6'>최종합격<br/>      </span>
+                        <span className='text-white mb-6 font-appleR00 text-center'>최종합격<br/>      </span>
                     </div>
                 </motion.div>
 
@@ -108,7 +108,7 @@ const Section12 = () => {
                       stiffness: 360,
                       damping: 100,
                     }}
-                className='text-white text-4xl mt-20 mb-8 font-extrabold'>혜택 및 지원자격</motion.h1>
+                className='text-white text-subtitle font-rokaf mt-20 mb-8 font-[700]'>혜택 및 지원자격</motion.h1>
                 <motion.div 
                     ref={descRef}
                     initial={{ opacity: 0, x: 0 }}
@@ -121,16 +121,16 @@ const Section12 = () => {
 
                     className='flex flex-col justify-around '>
                     <div className="flex flex-col lg:items-center items-start lg:flex-row">
-                        <ul className="text-sm lg:text-xl md:text-xl text-white">
-                            <li>1. 내일배움카드 발급을 하셔야 100% 지원</li>
-                            <li>2. 오전9시 ~ 오후 6시까지 수업 참여가 가능</li>
-                            <li>3. 취업을 목표로 하는 미취업자, 대학 재 · 휴학 및 졸업 예정자</li>
+                        <ul className="text-xl text-white font-appleB00">
+                            <li><span className="font-appleM00 text-[#FFCA8B]">1.</span> 내일배움카드 발급을 하셔야 100% 지원</li>
+                            <li><span className="font-appleM00 text-[#FFCA8B]">2.</span> 오전9시 ~ 오후 6시까지 <span className="font-appleM00 text-[#FFCA8B]">수업 참여가 가능</span></li>
+                            <li><span className="font-appleM00 text-[#FFCA8B]">3.</span> 취업을 목표<span className="font-appleM00 text-[#FFCA8B]">로 하는 미취업자, 대학 재 · 휴학 및 졸업 예정자</span></li>
                         </ul>
                         <div className="block max-w-xs my-4 lg:my-0 lg:ml-8">
-                            <Image src={AtmCard} alt="ATM Card Image" width={200} height={200} />
+                            <Image src={AtmCard} alt="ATM Card Image" width={219} height={138} />
                         </div>
                     </div>
-                    <ul className="text-sm lg:text-xl md:text-xl text-orange-200">
+                    <ul className="text-sm lg:text-xl md:text-xl font-appleM00 text-[#FFCA8B] mb-[74px]">
                         <li>[재학생 기준]</li>
                         <li>4년제 : 2학년 2학기 종료시점부터 지원 가능</li>
                         <li>3년제 : 1학년 2학기 종료시점부터 지원 가능</li>
