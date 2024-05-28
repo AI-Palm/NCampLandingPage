@@ -83,7 +83,7 @@ function Section7() {
           />
         </motion.div>
       </div>
-    {/* section 3 */}
+      {/* section 3 */}
       <div className="w-full h-[342.48px] -sm:h-auto relative flex mx-auto -sm:px-2  mb-24 justify-center gap-4 md-bw:gap-16">
         <motion.div
           className="w-[342.48px] h-[342.48px] -sm:w-auto -sm:h-[130px] -sm:min-w-[130px] -md:w-[220px] -md:h-[220px] -md:min-w-[220px] self-center"
@@ -119,10 +119,9 @@ function Section7() {
           </div>
         </div>
       </div>
-  
 
-      <button className="w-[500px] -sm:w-auto h-[76px] mb-72  bg-[#FF9900] justify-center shrink-0 flex flex-row gap-8  items-center rounded-full -sm:px-8">
-        <p className="text-white text-center text-3xl -sm:text-base font-normal not-italic font-appleR00">
+      <button className="w-[500px] -sm:w-auto -md:w-[300px] h-[76px] -sm:h-[42px] -md:h-[50px] mb-72  bg-[#FF9900] justify-center shrink-0 flex flex-row gap-8  items-center rounded-full -sm:px-8">
+        <p className="text-white text-center text-3xl -sm:text-base -md:text-lg font-normal not-italic font-appleR00">
           특강 브이로그 보러가기
         </p>
         <svg
@@ -131,7 +130,7 @@ function Section7() {
           height="27"
           viewBox="0 0 23 27"
           fill="none"
-          className="-sm:w-[20px] -sm:h-[24px]"
+          className="-sm:w-[16px] -sm:h-[16px] -md:w-[18px] -md:h-[18px]"
         >
           <path
             d="M23 13.5L0.500001 26.0574L0.500002 0.942631L23 13.5Z"
