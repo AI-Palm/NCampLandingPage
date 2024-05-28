@@ -7,9 +7,10 @@ const instructorsData = [
     imagePath: "/instructor/instructor-1.png",
     description: [
       "삼성전자, 삼성종합기술원",
-      "삼성SOS,현대정보기술, 쌍용정보통신 교육센터 출강",
+      "삼성SOS, 현대정보기술, 쌍용정보통신 교육센터 출강",
       "열혈강의, 웹 개발 워크북 저자",
     ],
+    mobileDescription: ["삼성전자", "현대정보기술", "웹 개발 워크북 저자"],
   },
   {
     name: "강요천 강사님",
@@ -19,15 +20,17 @@ const instructorsData = [
       "삼성SOS, 현대정보기술, 쌍용정보통신 교육센터 출강",
       "열혈강의, 웹 개발 워크북 저자",
     ],
+    mobileDescription: ["삼성전자", "현대정보기술", "웹 개발 워크북 저자"],
   },
   {
     name: "김영진 강사님",
     imagePath: "/instructor/instructor-3.png",
     description: [
       "삼성전자, 삼성종합기술원",
-      "삼성SOS, 현대정보기술, \n쌍용정보통신 교육센터 출강",
+      "삼성SOS, 현대정보기술, 쌍용정보통신 교육센터 출강",
       "열혈강의, 웹 개발 워크북 저자",
     ],
+    mobileDescription: ["삼성전자", "현대정보기술", "웹 개발 워크북 저자"],
   },
   {
     name: "고기천 강사님",
@@ -37,6 +40,7 @@ const instructorsData = [
       "삼성SOS, 현대정보기술, 쌍용정보통신 교육센터 출강",
       "열혈강의, 웹 개발 워크북 저자",
     ],
+    mobileDescription: ["삼성전자", "현대정보기술", "웹 개발 워크북 저자"],
   },
   {
     name: "문상환 강사님",
@@ -46,6 +50,7 @@ const instructorsData = [
       "삼성SOS, 현대정보기술, 쌍용정보통신 교육센터 출강",
       "열혈강의, 웹 개발 워크북 저자",
     ],
+    mobileDescription: ["삼성전자", "현대정보기술", "웹 개발 워크북 저자"],
   },
   {
     name: "박정관 강사님",
@@ -55,6 +60,7 @@ const instructorsData = [
       "삼성SOS, 현대정보기술, 쌍용정보통신 교육센터 출강",
       "열혈강의, 웹 개발 워크북 저자",
     ],
+    mobileDescription: ["삼성전자", "현대정보기술", "웹 개발 워크북 저자"],
   },
 ];
 const boxVariant = {
@@ -64,9 +70,7 @@ const boxVariant = {
 function Instructor() {
   return (
     <div className="w-[692px] -sm:w-[330px] -md:w-auto container -sm:p-0 grid md:grid-cols-2 md:grid  gap-24 -sm:gap-x-0 -sm:gap-y-4 -md:gap-y-4 -md:justify-center h-auto mx-auto">
-      {instructorsData.map((instructor, index) => (
         <div
-          key={index}
           className="w-[322.76px] -sm:w-[330px] -md:w-[90vw] -sm:gap-9 relative flex flex-col -md:flex-row -sm:h-[120px] -md:h-[220px] mx-auto -sm:col-span-2 -md:col-span-2 -md:rounded-full -md:border-[#FF9900] -md:border"
         >
           <div className="w-[120px] h-[322.76px] -md:h-auto mb-6 -md:order-last">
@@ -98,13 +102,20 @@ function Instructor() {
               {instructor.name}
             </p>
             <ul className="flex flex-col gap-1 text-white list-disc text-xl -sm:text-[11px] -sm:leading-4 -sm:text-left -sm:font-normal -sm:tracking-tight">
-              {instructor.description.map((desc, i) => (
-                <li key={i}>{desc}</li>
-              ))}
+              <div className="hidden -md:block">
+                {instructor.mobileDescription.map((item, i) => (
+                  <li key={i}>{item}</li>
+                ))}
+              </div>
+              <div className="block -md:hidden">
+                {instructor.description.map((item, i) => (
+                  <li key={i}>{item}</li>
+                ))}
+              </div>
             </ul>
           </motion.div>
         </div>
-      ))}
+     
     </div>
   );
 }
