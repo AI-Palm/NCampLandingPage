@@ -100,6 +100,18 @@ module.exports = {
         subtitle: ["25px", "35px"],
         step: ["20px", "28px"],
         description: ["20px", "35px"],
+        sec2mdtime: ["16px", "35px"],
+        sec2mddesc: ["16px", "28px"],
+        textsmall135: ["13.5px", "20px"],
+        textsmall13: ["13px", "20px"],
+        textsmall12: ["12px", "17px"],
+        textsmall12space1dot2: ['12px', {
+          lineHeight: '17px',
+          letterSpacing: '-1.2px',
+          fontWeight: '400',
+        }],
+
+
       },
       backgroundImage: (theme) => ({
         "gradient-custom":
