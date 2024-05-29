@@ -12,13 +12,17 @@ function Section4() {
 
   return (
     <div className="container mx-auto my-96">
-      <div className="text-center text-[50px] -sm:text-[28px] font-rokaf mb-28">
-        <p className=" font-bold text-white">강사진 소개</p>
+      <div className="text-center  -sm:text-[28px] font-rokaf mb-28">
+        <p className=" font-bold text-white text-[50px]">ncamp</p>
+        <p className="text-[#FFFFFF80] text-[25px] -sm:text-xl">
+          (비트캠프 강남센터)
+        </p>
+        <p className=" font-bold text-white text-[50px]">강사진 소개</p>
       </div>
       <div ref={ref} className=" shrink-0 mx-auto">
         <div className="w-[692px] -sm:w-[330px] -md:w-auto container -sm:p-0 grid md:grid-cols-2 md:grid  gap-24 -sm:gap-x-0 -sm:gap-y-4 -md:gap-y-4 -md:justify-center h-auto mx-auto">
           <div className="w-[322.76px] -sm:w-[330px] -md:w-[90vw] -sm:gap-9 relative flex flex-col -md:flex-row -sm:h-[120px] -md:h-[220px] mx-auto -sm:col-span-2 -md:col-span-2 -md:rounded-full -md:border-[#FF9900] -md:border">
-            <div className="w-[120px] h-[322.76px] -md:h-auto mb-6 -md:order-last">
+            <div className="w-full h-[322.76px] -md:h-auto mb-6 -md:order-last">
               <span
                 className="opacity-0 translate-x-28 block"
                 style={{
@@ -27,7 +31,7 @@ function Section4() {
                   transition: "0.2s",
                 }}
               ></span>
-              <div className="w-[322.76px] h-[322.76px] -sm:w-[120px] -sm:h-[120px] -md:w-[220px] -md:h-[220px] -md:order-last left-0 -md:left-auto -md:right-0 top-0 absolute bg-amber-500 rounded-full" />
+              <div className="w-[322.76px] h-[322.76px] -sm:w-[120px] -sm:h-[120px] -md:w-[220px] -md:h-[220px] -md:order-last left-0 -md:left-auto -md:right-0 top-0 absolute bg-[#FF9900] rounded-full" />
               <motion.img
                 className="w-[322.76px] h-[322.76px] -sm:w-[120px] -sm:h-[120px] -md:w-[220px] -md:h-[220px] -md:right-0 top-0 absolute rounded-full"
                 src="/instructor/instructor-1.png"
