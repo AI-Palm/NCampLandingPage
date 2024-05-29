@@ -92,7 +92,7 @@ module.exports = {
         rokaf: ["RokafSans", "sans-serif"],
         appleB00: ["AppleB00", "sans-serif"],
         appleEB00: ["AppleEB00", "sans-serif"],
-        appleM00: ["AppleM00", "sans-serif"]
+        appleM00: ["AppleM00", "sans-serif"],
       },
       fontSize: {
         xss: ["8px", "9.5px"],
@@ -100,8 +100,11 @@ module.exports = {
         subtitle: ["25px", "35px"],
         step: ["20px", "28px"],
         description: ["20px", "35px"],
-
       },
+      backgroundImage: (theme) => ({
+        "gradient-custom":
+          "linear-gradient(to bottom, #FF9900 0%, rgba(0,0,0,1) 20%)",
+      }),
     },
   },
   plugins: [require("tailwindcss-animate")],

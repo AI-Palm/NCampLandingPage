@@ -31,7 +31,7 @@ function Section6() {
         ></span>
         <div className="w-[736px] h-[322.76px] -md:w-auto -md:h-auto  left-0  absolute  rounded-full" />
         <motion.img
-          className="w-[736px] h-[322.76px] -md:w-auto -md:h-auto  "
+          className="w-[736px] h-[322.76px] -md:w-auto -md:h-auto  border-y-[1px] border-y-white"
           src="/section6/pic1-section6.png"
           variants={boxVariant}
           initial="initial"
@@ -87,8 +87,8 @@ function Section6() {
               ></Image>
             </div>
             <div className="w-auto text-xl leading-[30px] font-appleR00 -sm:text-base font-normal not-italic text-[#ADADAD]">
-                스터디를 통하여 동료들과 협업하는 방법을 조금씩 배우며 실무
-                경험을 쌓아요.
+              스터디를 통하여 동료들과 협업하는 방법을 조금씩 배우며 실무 경험을
+              쌓아요.
             </div>
           </div>
         </div>
