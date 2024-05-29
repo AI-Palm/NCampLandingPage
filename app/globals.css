@@ -2,22 +2,27 @@
   font-family: "RokafSans";
   src: url("/fonts/rokaf/ROKAF-Slab-Serif-Bold.ttf"), format("truetype");
 }
+
 @font-face {
   font-family: "AppleB00";
   src: url("/fonts/font-apple/GothicB.ttf"), format("truetype");
 }
+
 @font-face {
   font-family: "AppleEB00";
   src: url("/fonts/font-apple/gothicneoEB.ttf"), format("truetype");
 }
+
 @font-face {
   font-family: "Apple";
   src: url("/fonts/font-apple/85ba110e6b8d4c2e961f21ef648d27ea.ttf"), format("truetype");
 }
+
 @font-face {
   font-family: "AppleM00";
   src: url("/fonts/font-apple/AppleSDGothicNeoM00.ttf"), format("truetype");
 }
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -96,21 +101,6 @@
   }
 }
 
-.main {
-  width: 100%;
-  overflow: hidden;
-  padding-left: 28%;
-  padding-right: 28%;
-}
-
-@media only screen and (max-width: 1024px) {
-  .main {
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
-
 @media (min-width: 355px) {
   .header-content {
     padding-top: 1rem;
@@ -144,11 +134,25 @@
     padding-top: 1.5rem;
     /* Example spacing for large screens and above */
   }
+
+  .main {
+    width: 100%;
+    overflow: hidden;
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 @media (min-width: 1280px) {
   .header-content {
     padding-top: 3 rem;
     /* Example spacing for extra-large screens and above */
+  }
+
+  .main {
+    width: 100%;
+    overflow: hidden;
+    padding-left: 26%;
+    padding-right: 26%;
   }
 }
