@@ -49,7 +49,7 @@ export default function Section8() {
             />
           </svg>
           <motion.div
-            className="absolute z-20 top-0 right-0 mt-[23px] sm:mx-[51px] mx-5 w-[57%] aspect-[452/273] border border-black rounded-[136px] overflow-hidden"
+            className="absolute z-20 top-0 right-0 mt-[23px] sm:mx-[51px] mx-5 w-[57%] max-w-[452px] aspect-[452/273] border border-black rounded-[136px] overflow-hidden"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.4 }}
@@ -128,7 +128,7 @@ export default function Section8() {
             />
           </svg>
           <motion.div
-            className="absolute z-20 top-0 left-0 mt-[23px] sm:mx-[51px] mx-5 w-[57%] aspect-[452/273] border border-black rounded-[136px] overflow-hidden"
+            className="absolute z-20 top-0 left-0 mt-[23px] sm:mx-[51px] mx-5 w-[57%] max-w-[452px] aspect-[452/273] border border-black rounded-[136px] overflow-hidden"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.4 }}
