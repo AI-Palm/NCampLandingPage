@@ -103,8 +103,8 @@ function Section3() {
 
       {/* direction bar */}
       <div className="">
-        <button className="w-[500px] -sm:w-auto h-[76px]  bg-[#FF9900] justify-center shrink-0 flex flex-row gap-8 -sm:gap-4  items-center rounded-full -sm:px-9">
-          <p className="text-white font-appleEB00 text-center text-3xl -sm:text-base font-normal not-italic">
+        <button className="w-[500px] -sm:w-auto h-[76px] -md:w-[300px]  -sm:h-[42px] -md:h-[50px]  bg-[#FF9900] justify-center shrink-0 flex flex-row gap-8 -sm:gap-4  items-center rounded-full -sm:px-9">
+          <p className="text-white font-appleEB00 text-center text-3xl -sm:text-base -md:text-lg font-normal not-italic">
             수료생 프로젝트 보러가기
           </p>
           <svg
@@ -113,7 +113,7 @@ function Section3() {
             height="27"
             viewBox="0 0 23 27"
             fill="none"
-            className="-sm:w-[15px] -sm:h-[16px]"
+            className="-sm:w-[16px] -sm:h-[16px] -md:w-[18px] -md:h-[18px]"
           >
             <path
               d="M23 13.5L0.500001 26.0574L0.500002 0.942631L23 13.5Z"
