@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import { useInView, motion } from "framer-motion";
 
 const instructorsData = [
@@ -67,55 +67,31 @@ const boxVariant = {
   animate: { opacity: 1, scale: 1, transition: { delay: 0.05 } },
   initial: { opacity: 0, scale: 0 },
 };
-function Instructor() {
+function Instructor({ imagePath }) {
+  const ref = useRef();
+  const isInView = useInView(ref);
   return (
-    <div className="w-[692px] -sm:w-[330px] -md:w-auto container -sm:p-0 grid md:grid-cols-2 md:grid  gap-24 -sm:gap-x-0 -sm:gap-y-4 -md:gap-y-4 -md:justify-center h-auto mx-auto">
-        <div
-          className="w-[322.76px] -sm:w-[330px] -md:w-[90vw] -sm:gap-9 relative flex flex-col -md:flex-row -sm:h-[120px] -md:h-[220px] mx-auto -sm:col-span-2 -md:col-span-2 -md:rounded-full -md:border-[#FF9900] -md:border"
-        >
-          <div className="w-[120px] h-[322.76px] -md:h-auto mb-6 -md:order-last">
-            <span
-              className="opacity-0 translate-x-28 block"
-              style={{
-                transform: "translateY(0px)",
-                opacity: 0,
-                transition: "0.2s",
-              }}
-            ></span>
-            <div className="w-[322.76px] h-[322.76px] -sm:w-[120px] -sm:h-[120px] -md:w-[220px] -md:h-[220px] -md:order-last left-0 -md:left-auto -md:right-0 top-0 absolute bg-amber-500 rounded-full" />
-            <motion.img
-              className="w-[322.76px] h-[322.76px] -sm:w-[120px] -sm:h-[120px] -md:w-[220px] -md:h-[220px] -md:right-0 top-0 absolute rounded-full"
-              src={instructor.imagePath}
-              variants={boxVariant}
-              initial="initial"
-              whileInView="animate"
-            />
-          </div>
-
-          <motion.div
-            className="w-[288px] font-appleR00 mx-auto -sm:py-3 -sm:ml-10 -sm:w-full -sm:h-auto -sm:pr-4 -sm:shrink"
-            variants={boxVariant}
-            initial="initial"
-            whileInView="animate"
-          >
-            <p className="text-center font-appleB00 -md:text-left text-white text-3xl -sm:text-sm font-normal mb-6 -sm:mb-[3px] -md:mb-4 sm-bw:mt-8 -md:text-[#FF9900]">
-              {instructor.name}
-            </p>
-            <ul className="flex flex-col gap-1 text-white list-disc text-xl -sm:text-[11px] -sm:leading-4 -sm:text-left -sm:font-normal -sm:tracking-tight">
-              <div className="hidden -md:block">
-                {instructor.mobileDescription.map((item, i) => (
-                  <li key={i}>{item}</li>
-                ))}
-              </div>
-              <div className="block -md:hidden">
-                {instructor.description.map((item, i) => (
-                  <li key={i}>{item}</li>
-                ))}
-              </div>
-            </ul>
-          </motion.div>
-        </div>
-     
+    <div
+      useref={isInView}
+      className="w-full -md:w-[120px] h-[322.76px] -md:h-auto mb-6 -md:order-last"
+    >
+      <span
+        className="opacity-0 translate-x-28 block"
+        style={{
+          transform: "translateY(0px)",
+          opacity: 0,
+          transition: "0.2s",
+        }}
+      ></span>
+      <div className="w-[322.76px] h-[322.76px] -sm:w-[120px] -sm:h-[120px] -md:w-[220px] -md:h-[220px] -md:order-last left-0 -md:left-auto -md:right-0 top-0 -md:top-[-1px] bg-[#FF9900]  absolute  rounded-full   " />
+      <motion.img
+        className="w-[322.76px] z-10 h-[322.76px] -sm:w-[120px] -sm:h-[120px] -md:w-[220px] -md:h-[220px] -md:right-[0px] top-[1px] -md:top-[-1px] absolute rounded-full -md:border-t -md:border-l -md:border-b -md:border-[#FF9900]"
+        src={imagePath}
+        variants={boxVariant}
+        initial="initial"
+        whileInView="animate"
+        viewport={{ once: true, amount: 0.5 }}
+      />
     </div>
   );
 }

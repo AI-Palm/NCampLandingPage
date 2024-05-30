@@ -14,11 +14,11 @@ function Section6() {
       <div className="bg-white  h-[1px] self-center "></div>
       <hr className="w-[736px] -sm:w-full -md:w-full my-12 h-0.5 border bg-white dark:bg-white/10 mt-96 mb-9" />
 
-      <div className="w-1/2 font-rokaf -sm:w-full md-bw:w-full sm-bw:w-full  h-auto text-5xl px-10 md-bw:px-0  mb-9 -sm:text-2xl -sm:mb-4 leading-normal font-bold text-center">
-        <span className="text-white">동료들과 함께 성장</span>{" "}
+      <p className="text-white w-1/2 font-rokaf -sm:w-full md-bw:w-full sm-bw:w-full  h-auto text-[50px] px-10 md-bw:px-0  mb-9 -sm:text-2xl -sm:mb-4 leading-normal font-bold text-center">
+       동료들과 함께 성장 <br />
         <span className="text-[#FF9900]">그룹 스터디</span>{" "}
-        <span className="text-white"> 운영!</span>
-      </div>
+        <span className="text-white"> 운영!</span> 
+      </p>
 
       <div className="w-[736px] h-full -md:w-full -md:h-full  mb-6">
         <span
