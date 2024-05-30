@@ -19,6 +19,12 @@ module.exports = {
       },
     },
     extend: {
+      listStyleType: {
+        'small-disc': 'disc',
+      },
+      fontSize: {
+        'xs-marker': '0.5rem',
+      },
       screens: {
         "2xl": "1400px",
 
@@ -105,11 +111,17 @@ module.exports = {
         textsmall135: ["13.5px", "20px"],
         textsmall13: ["13px", "20px"],
         textsmall12: ["12px", "17px"],
+        textsmall16height28: ["16px", "28px"],
+        text30heightnormal: ["30px", "normal"],
+        text22heightnormal: ["22px", "normal"],
+
         textsmall12space1dot2: ['12px', {
           lineHeight: '17px',
           letterSpacing: '-1.2px',
           fontWeight: '400',
         }],
+
+        'list-disc-sm': '0.5rem',
 
 
       },
@@ -117,7 +129,20 @@ module.exports = {
         "gradient-custom":
           "linear-gradient(to bottom, #FF9900 0%, rgba(0,0,0,1) 20%)",
       }),
+      
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities({
+        '.list-small-disc': {
+          'list-style-type': 'disc',
+        },
+        
+        '.li-small::marker': {
+          'font-size': '0.8rem', // Small size for the marker
+        },
+      });
+    },
+  ],
 };

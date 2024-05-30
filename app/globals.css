@@ -156,3 +156,43 @@
     padding-right: 26%;
   }
 }
+
+/* Custom class for centered list markers */
+.centered-list-disc {
+  @apply list-none ;
+}
+
+.centered-list-disc li {
+  @apply relative flex items-center pl-4;
+}
+
+.centered-list-disc li::before {
+  @apply absolute left-0 w-1 h-1 bg-current rounded-full;
+  content: '';
+  margin-top: auto;
+  margin-bottom: auto;
+  top: 0;
+  bottom: 0;
+}
+
+
+
+.custom-list-disc {
+  list-style-type: none; 
+}
+
+.custom-list-disc li {
+  @apply relative  pl-3;
+}
+
+.custom-list-disc li::before {
+  content: ""; 
+  position: absolute; 
+  left: 0; 
+  top: 0.55rem; 
+  width: 0.2rem; 
+  height: 0.2rem; 
+  background-color: #FFF;
+  border-radius: 50%;
+}
+
