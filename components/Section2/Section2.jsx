@@ -25,9 +25,9 @@ const Section2 = () => {
                     <h1 className="md:text-subtitle text-description  font-appleB00 text-[#F90] mt-[31px] md:mt-[43px] mb-[7px] md:mb-[27px] text-left">
                         교육일정
                     </h1>
-                    <ul className="font-appleR00 md:ml-20 md:mb-[17px] mb-[5px] text-base  md:text-xl">
-                        <li className='flex md:mb-[17px] mb-[8px] '><span className='md:hidden mr-[36px]'>수강일정</span><span >24.05.28 ~ 24.11.07</span></li>
-                        <li className='flex '><span className='md:hidden mr-[36px] '>교육시간</span><span>평일 09:30 ~ 18:00<br/>(스터디 진행시 22:00까지)</span></li>
+                    <ul className="font-appleR00  md:mb-[17px] mb-[5px] text-text16heightnormal  md:text-text20heightnormal">
+                        <li className='flex md:mb-[17px] mb-[8px] '><span className=' mr-[36px] whitespace-nowrap '>수강일정</span><span >24.05.28 ~ 24.11.07</span></li>
+                        <li className='flex '><span className=' mr-[36px] whitespace-nowrap'>교육시간</span><span>평일 09:30 ~ 18:00<br/>(스터디 진행시 22:00까지)</span></li>
                     </ul>
                     <ul className="font-appleR00 ml-4 list-small-disc   text-textsmall16height28 lg:text-xl md:text-xl">
                         <li className='li-small'>실전프로젝트 기반 중심 수업</li>
