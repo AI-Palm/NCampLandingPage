@@ -13,7 +13,7 @@ function Section7() {
         </div>
         <div className=" w-full h-[90%]  flex flex-col justify-center items-center">
           {/* motion animation */}
-          <div className="w-full h-[342.48px] -sm:h-auto relative flex mx-auto -sm:px-2 -md:px-4  mb-24 justify-center gap-4 md-bw:gap-16">
+          <div className="w-full h-[342.48px] -sm:h-auto relative flex mx-auto -sm:px-2 -md:px-4 -sm:mb-8  mb-20 justify-center gap-4 md-bw:gap-16">
             <motion.div
               className="w-[342.48px] h-[342.48px] -sm:w-auto -sm:h-[130px] -sm:min-w-[130px] -md:w-[220px] -md:h-[220px] -md:min-w-[220px] self-center"
               initial={{ opacity: 0, x: -100 }}
@@ -50,7 +50,7 @@ function Section7() {
           </div>
 
           {/* section 2 */}
-          <div className="w-full h-[342.48px] flex-shrink-0  -sm:h-auto -sm:px-2 -md:px-0 relative flex mx-auto -sm:mb-8 justify-center gap-4 md-bw:gap-16">
+          <div className="w-full h-[342.48px] flex-shrink-0 mb-20 -sm:h-auto -sm:px-2 -md:px-0 relative flex mx-auto -sm:mb-8 justify-center gap-4 md-bw:gap-16">
             <div className="w-[333px] -sm:w-auto h-auto text-center flex flex-col justify-center">
               <div className="w-auto h-auto relative flex flex-col gap-y-2 -sm:gap-y-1 font-appleR00 -sm:pr-14 pr-20">
                 <p className="text-[#F90] font-appleB00 text-[30px] leading-normal -sm:text-[18px] -md:text-[22px] -sm:text-base   ">
@@ -87,7 +87,7 @@ function Section7() {
             </motion.div>
           </div>
           {/* section 3 */}
-          <div className="w-full h-[342.48px] -sm:h-auto relative flex mx-auto -sm:px-2 -md:px-4  mb-24 justify-center gap-4 md-bw:gap-16">
+          <div className="w-full h-[342.48px] -sm:h-auto relative flex mx-auto -sm:px-2 -md:px-4 -sm:mb-12  mb-24 justify-center gap-4 md-bw:gap-16">
             <motion.div
               className="w-[342.48px] h-[342.48px] -sm:w-auto -sm:h-[130px] -sm:min-w-[130px] -md:w-[220px] -md:h-[220px] -md:min-w-[220px] self-center"
               initial={{ opacity: 0, x: -100 }}
@@ -106,15 +106,19 @@ function Section7() {
             </motion.div>
             <div className="w-[333px] -sm:w-auto h-auto  text-center flex flex-col justify-center ">
               <div className="w-auto h-auto relative flex flex-col mb-[22px] -sm:gap-y-1 font-appleR00">
-               <div className="flex flex-row items-center md:mt-8">
-                 <p className="text-[#F90] font-appleB00 text-[30px] leading-normal -sm:text-[18px] -md:text-[22px]  pl-20 -sm:pl-14">
-                  나를 매력적인 <br /> 개발자로 만드는 법
-                </p>
-                  <img
-                    className="w-16 -sm:w-12 md-bw:w-24 h-[7px]  sm-bw:h-[11px] -sm:h-[5px]  absolute left-0 mt-[40px]"
+               <div className="flex flex-row items-center md:mt-8 md:gap-[13px] md:mb-[22px]">
+               <div>
+                <img
+                    className="w-16 -sm:w-12 md-bw:w-24 h-[7px]  sm-bw:h-[11px] -sm:h-[5px]   mt-[40px]"
                     src="/section7/line-section7.png"
                     alt=""
                   />
+                </div>
+                 <p className="text-[#F90] font-appleB00 text-[30px] leading-normal -sm:text-[18px] -md:text-[22px]   -sm:pl-14">
+                  나를 매력적인 <br /> 개발자로 만드는 법
+                </p>
+                
+                 
                 </div>
                 <p className="text-[#ADADAD] text-[22px] -sm:text-[14px] -md:text-[16px] leading-[32px] sm-bw:leading-[24px] -sm:leading-6 text-center pl-[55px] -sm:pl-12 -md:pl-0">
                   Lunit <br /> 머신러닝 엔지니어 김동이님
