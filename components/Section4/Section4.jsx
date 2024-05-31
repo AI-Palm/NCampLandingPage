@@ -40,11 +40,11 @@ function Section4() {
       
         <div useref={isInView} className="container mx-auto my-96">
           <div className="text-center  -sm:text-[28px] font-rokaf mb-28">
-            <p className=" font-bold text-white text-[50px]">ncamp</p>
-            <p className="text-[#FFFFFF80] text-[25px] -sm: pb-[25px]">
+            <p className=" font-bold text-white text-[50px] m-0 p-0 leading-none">ncamp</p>
+            <p className="text-[#FFFFFF80] text-[25px] mb-[23px]">
               (비트캠프 강남센터)
             </p>
-            <p className=" font-bold text-white text-[50px] ">강사진 소개</p>
+            <p className=" font-bold text-white text-[50px] m-0 p-0 leading-none">강사진 소개</p>
           </div>
           <div ref={ref} className=" shrink-0 mx-auto">
             <div className="w-[692px] -sm:w-[330px] -md:w-auto container -sm:p-0 grid md:grid-cols-2 md:grid  gap-24 -sm:gap-x-0 -sm:gap-y-4 -md:gap-y-4 -md:justify-center h-auto mx-auto">
@@ -115,10 +115,10 @@ function Section4() {
                   viewport={{ once: true, amount: 0.5 }}
                 >
                    <p className="text-center font-appleB00 -md:text-left text-white text-3xl -sm:text-sm font-normal mb-[25px] -sm:mb-[3px] -md:mb-4 -sm:mt-[17px] sm-bw:mt-8 -md:text-[#FF9900] -sm:ml-[10px] -md:ml-[-15px]">
-                    엄진영 강사님
+                   강요천 강사님
                   </p>
                   <div className="-sm:ml-[25px]">
-                  <ul className="md:marker:text-[#FFF] text-white list-disc text-[20px] leading-[30px] -sm:text-[11px] -sm:leading-4 -sm:text-left -sm:font-normal -sm:tracking-tight -md:leading-[25px]">
+                  <ul className="md:marker:text-[#ADADAD] text-white list-disc text-[20px] leading-[30px] -sm:text-[11px] -sm:leading-4 -sm:text-left -sm:font-normal -sm:tracking-tight -md:leading-[25px]">
                     {/* mobile content */}
 
                     <div className="hidden -md:block ">
@@ -162,7 +162,7 @@ function Section4() {
                   viewport={{ once: true, amount: 0.5 }}
                 >
                    <p className="text-center font-appleB00 -md:text-left text-white text-3xl -sm:text-sm font-normal mb-[25px] -sm:mb-[3px] -md:mb-4 -sm:mt-[17px] sm-bw:mt-8 -md:text-[#FF9900] -sm:ml-[10px] -md:ml-[-15px]">
-                    엄진영 강사님
+                   김영진 강사님
                   </p>
                   <div className="-sm:ml-[25px]">
                   <ul className="md:marker:text-[#FFF] text-white list-disc text-[20px] leading-[30px] -sm:text-[11px] -sm:leading-4 -sm:text-left -sm:font-normal -sm:tracking-tight -md:leading-[25px]">
@@ -199,10 +199,10 @@ function Section4() {
                   viewport={{ once: true, amount: 0.5 }}
                 >
                    <p className="text-center font-appleB00 -md:text-left text-white text-3xl -sm:text-sm font-normal mb-[25px] -sm:mb-[3px] -md:mb-4 -sm:mt-[17px] sm-bw:mt-8 -md:text-[#FF9900] -sm:ml-[10px] -md:ml-[-15px]">
-                    엄진영 강사님
+                   고기천 강사님
                   </p>
                   <div className="-sm:ml-[25px]">
-                  <ul className="md:marker:text-[#FFF] text-white list-disc text-[20px] leading-[30px] -sm:text-[11px] -sm:leading-4 -sm:text-left -sm:font-normal -sm:tracking-tight -md:leading-[25px]">
+                  <ul className="md:marker:text-[#ADADAD] text-white list-disc text-[20px] leading-[30px] -sm:text-[11px] -sm:leading-4 -sm:text-left -sm:font-normal -sm:tracking-tight -md:leading-[25px]">
                     {/* mobile content */}
 
                     <div className="hidden -md:block ">
@@ -244,7 +244,7 @@ function Section4() {
                   viewport={{ once: true, amount: 0.5 }}
                 >
                    <p className="text-center font-appleB00 -md:text-left text-white text-3xl -sm:text-sm font-normal mb-[25px] -sm:mb-[3px] -md:mb-4 -sm:mt-[17px] sm-bw:mt-8 -md:text-[#FF9900] -sm:ml-[10px] -md:ml-[-15px]">
-                    엄진영 강사님
+                   문상환 강사님
                   </p>
                   <div className="-sm:ml-[25px]">
                   <ul className="md:marker:text-[#FFF] text-white list-disc text-[20px] leading-[30px] -sm:text-[11px] -sm:leading-4 -sm:text-left -sm:font-normal -sm:tracking-tight -md:leading-[25px]">
@@ -286,10 +286,10 @@ function Section4() {
                   viewport={{ once: true, amount: 0.5 }}
                 >
                    <p className="text-center font-appleB00 -md:text-left text-white text-3xl -sm:text-sm font-normal mb-[25px] -sm:mb-[3px] -md:mb-4 -sm:mt-[17px] sm-bw:mt-8 -md:text-[#FF9900] -sm:ml-[10px] -md:ml-[-15px]">
-                    엄진영 강사님
+                   박정관 강사님
                   </p>
                   <div className="-sm:ml-[25px]">
-                  <ul className="md:marker:text-[#FFF] text-white list-disc text-[20px] leading-[30px] -sm:text-[11px] -sm:leading-4 -sm:text-left -sm:font-normal -sm:tracking-tight -md:leading-[25px]">
+                  <ul className="md:marker:text-[#ADADAD] text-white list-disc text-[20px] leading-[30px] -sm:text-[11px] -sm:leading-4 -sm:text-left -sm:font-normal -sm:tracking-tight -md:leading-[25px]">
                     {/* mobile content */}
 
                     <div className="hidden -md:block ">
