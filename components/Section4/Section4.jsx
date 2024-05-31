@@ -38,8 +38,8 @@ function Section4() {
   const isInView = useInView(ref);
   return (
       
-        <div useref={isInView} className="container mx-auto my-96">
-          <div className="text-center  -sm:text-[28px] font-rokaf mb-28">
+        <div useref={isInView} className="container mx-auto p-0 my-96">
+          <div className="text-center  -sm:text-[28px] font-rokaf mb-24 -md:mb-20 ">
             <p className=" font-bold text-white text-[50px] m-0 p-0 leading-none">ncamp</p>
             <p className="text-[#FFFFFF80] text-[25px] mb-[23px]">
               (비트캠프 강남센터)
@@ -47,11 +47,11 @@ function Section4() {
             <p className=" font-bold text-white text-[50px] m-0 p-0 leading-none">강사진 소개</p>
           </div>
           <div ref={ref} className=" shrink-0 mx-auto">
-            <div className="w-[692px] -sm:w-[330px] -md:w-auto container -sm:p-0 grid md:grid-cols-2 md:grid  gap-24 -sm:gap-x-0 -sm:gap-y-4 -md:gap-y-4 -md:justify-center h-auto mx-auto">
-              <div className="w-[322.76px] -sm:w-[330px] h-auto -md:w-[90vw] -sm:gap-9 relative flex flex-col -md:flex-row -sm:h-[120px] -md:h-[220px] mx-auto -sm:col-span-2 -md:col-span-2 -md:rounded-full -md:border-[#FF9900] -md:border">
+            <div className="w-[692px] container -sm:w-[330px] -md:w-auto  -sm:p-0 grid md:grid-cols-2 md:grid  gap-24 -sm:gap-x-0 -sm:gap-y-4 -md:gap-y-4 -md:justify-center h-auto mx-auto">
+              <div className="w-[322px] -sm:w-[330px] h-auto -md:w-[90vw] -sm:gap-9 relative flex flex-col -md:flex-row -sm:h-[120px] -md:h-[220px] mx-auto -sm:col-span-2 -md:col-span-2 -md:rounded-full -md:border-[#FF9900] -md:border">
                 <Instructor imagePath={instructorsData[0].imagePath} />
                 <motion.div
-                  className="w-[288px] -md:w-[315px] font-appleR00 -md:mx-auto ml-[17.76px] mr-[17px]  -sm:w-full -sm:h-auto -sm:pl-4 -sm:shrink"
+                  className="w-[288px] -md:w-[314px] font-appleR00 -md:mx-auto ml-[17.76px] mr-[17px]  -sm:w-full -sm:h-auto -sm:pl-4 -sm:shrink"
                   variants={boxVariant}
                   initial="initial"
                   whileInView="animate"
@@ -104,11 +104,11 @@ function Section4() {
                 </motion.div>
               </div>
               {/* instructor 2 */}
-              <div className="w-[322.76px] -sm:w-[330px] h-auto -md:w-[90vw] -sm:gap-9 relative flex flex-col -md:flex-row -sm:h-[120px] -md:h-[220px] mx-auto -sm:col-span-2 -md:col-span-2 -md:rounded-full -md:border-[#FF9900] -md:border">
+              <div className="w-[322px] -sm:w-[330px] h-auto -md:w-[90vw] -sm:gap-9 relative flex flex-col -md:flex-row -sm:h-[120px] -md:h-[220px] mx-auto -sm:col-span-2 -md:col-span-2 -md:rounded-full -md:border-[#FF9900] -md:border">
                 <Instructor imagePath={instructorsData[1].imagePath} />
 
                 <motion.div
-                  className="w-[288px] -md:w-[315px] font-appleR00 -md:mx-auto ml-[17.76px] mr-[17px]  -sm:w-full -sm:h-auto -sm:pl-4 -sm:shrink"
+                  className="w-[288px] -md:w-[314px] font-appleR00 -md:mx-auto ml-[17.76px] mr-[17px]  -sm:w-full -sm:h-auto -sm:pl-4 -sm:shrink"
                   variants={boxVariant}
                   initial="initial"
                   whileInView="animate"
@@ -151,11 +151,11 @@ function Section4() {
                 </motion.div>
               </div>
               {/* instructor 3 */}
-              <div className="w-[322.76px] -sm:w-[330px] h-auto -md:w-[90vw] -sm:gap-9 relative flex flex-col -md:flex-row -sm:h-[120px] -md:h-[220px] mx-auto -sm:col-span-2 -md:col-span-2 -md:rounded-full -md:border-[#FF9900] -md:border">
+              <div className="w-[322px] -sm:w-[330px] h-auto -md:w-[90vw] -sm:gap-9 relative flex flex-col -md:flex-row -sm:h-[120px] -md:h-[220px] mx-auto -sm:col-span-2 -md:col-span-2 -md:rounded-full -md:border-[#FF9900] -md:border">
                 <Instructor imagePath={instructorsData[2].imagePath} />
 
                 <motion.div
-                  className="w-[288px] -md:w-[315px] font-appleR00 -md:mx-auto ml-[17.76px] mr-[17px]  -sm:w-full -sm:h-auto -sm:pl-4 -sm:shrink"
+                  className="w-[288px] -md:w-[314px] font-appleR00 -md:mx-auto ml-[17.76px] mr-[17px]  -sm:w-full -sm:h-auto -sm:pl-4 -sm:shrink"
                   variants={boxVariant}
                   initial="initial"
                   whileInView="animate"
@@ -189,10 +189,10 @@ function Section4() {
                 </motion.div>
               </div>
               {/* instructor 4 */}
-              <div className="w-[322.76px] -sm:w-[330px] h-auto -md:w-[90vw] -sm:gap-9 relative flex flex-col -md:flex-row -sm:h-[120px] -md:h-[220px] mx-auto -sm:col-span-2 -md:col-span-2 -md:rounded-full -md:border-[#FF9900] -md:border">
+              <div className="w-[322px] -sm:w-[330px] h-auto -md:w-[90vw] -sm:gap-9 relative flex flex-col -md:flex-row -sm:h-[120px] -md:h-[220px] mx-auto -sm:col-span-2 -md:col-span-2 -md:rounded-full -md:border-[#FF9900] -md:border">
                 <Instructor imagePath={instructorsData[3].imagePath} />
                 <motion.div
-                  className="w-[288px] -md:w-[315px] font-appleR00 -md:mx-auto ml-[17.76px] mr-[17px]  -sm:w-full -sm:h-auto -sm:pl-4 -sm:shrink"
+                  className="w-[288px] -md:w-[314px] font-appleR00 -md:mx-auto ml-[17.76px] mr-[17px]  -sm:w-full -sm:h-auto -sm:pl-4 -sm:shrink"
                   variants={boxVariant}
                   initial="initial"
                   whileInView="animate"
@@ -233,11 +233,11 @@ function Section4() {
                 </motion.div>
               </div>
               {/* instructor 5 */}
-              <div className="w-[322.76px] -sm:w-[330px] -md:w-[90vw] -sm:gap-9 relative flex flex-col -md:flex-row -sm:h-[120px] -md:h-[220px] mx-auto -sm:col-span-2 -md:col-span-2 -md:rounded-full -md:border-[#FF9900] -md:border">
+              <div className="w-[322px] -sm:w-[330px] -md:w-[90vw] -sm:gap-9 relative flex flex-col -md:flex-row -sm:h-[120px] -md:h-[220px] mx-auto -sm:col-span-2 -md:col-span-2 -md:rounded-full -md:border-[#FF9900] -md:border">
                 <Instructor imagePath={instructorsData[4].imagePath} />
 
                 <motion.div
-                  className="w-[288px] -md:w-[315px] font-appleR00 -md:mx-auto ml-[17.76px] mr-[17px]  -sm:w-full -sm:h-auto -sm:pl-4 -sm:shrink"
+                  className="w-[288px] -md:w-[314px] font-appleR00 -md:mx-auto ml-[17.76px] mr-[17px]  -sm:w-full -sm:h-auto -sm:pl-4 -sm:shrink"
                   variants={boxVariant}
                   initial="initial"
                   whileInView="animate"
@@ -275,11 +275,11 @@ function Section4() {
                 </motion.div>
               </div>
               {/* instructor 6 */}
-              <div className="w-[322.76px] -sm:w-[330px] h-auto -md:w-[90vw] -sm:gap-9 relative flex flex-col -md:flex-row -sm:h-[120px] -md:h-[220px] mx-auto -sm:col-span-2 -md:col-span-2 -md:rounded-full -md:border-[#FF9900] -md:border">
+              <div className="w-[322px] -sm:w-[330px] h-auto -md:w-[90vw] -sm:gap-9 relative flex flex-col -md:flex-row -sm:h-[120px] -md:h-[220px] mx-auto -sm:col-span-2 -md:col-span-2 -md:rounded-full -md:border-[#FF9900] -md:border">
                 <Instructor imagePath={instructorsData[5].imagePath} />
 
                 <motion.div
-                  className="w-[288px] -md:w-[315px] font-appleR00 -md:mx-auto ml-[17.76px] mr-[17px]  -sm:w-full -sm:h-auto -sm:pl-4 -sm:shrink"
+                  className="w-[288px] -md:w-[314px] font-appleR00 -md:mx-auto ml-[17.76px] mr-[17px]  -sm:w-full -sm:h-auto -sm:pl-4 -sm:shrink"
                   variants={boxVariant}
                   initial="initial"
                   whileInView="animate"
