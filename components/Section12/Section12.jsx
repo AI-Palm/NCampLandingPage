@@ -19,7 +19,7 @@ const Section12 = () => {
 
   return (
     <>
-        <div className="bg-orange-400 h-full flex justify-center  "  >
+        <div className="bg-[#F90] h-full flex justify-center  "  >
             <div className='flex flex-col  justify-center items-center my-10'>
                 <motion.h1 
                     ref={h1Ref}
@@ -63,39 +63,39 @@ const Section12 = () => {
                             <div className="rounded-full bg-white px-6 py-8  my-4 ml-4">
                                 <div className="text-center font-appleB00 text-[#F90]">STEP 01 <br /> 수강신청</div>
                             </div>
-                            <Image src={ArrowIcon} alt="arrow" width={28} height={1} className="m-0" />
+                            <Image src={ArrowIcon} alt="arrow" width={38} height={1} className="m-0" />
                         </div>
-                        <span className='text-white font-appleR00 text-center'>신청사이트 <br /> 수강신청</span>
+                        <span className='text-white font-appleR00 text-center mr-[20px]'>신청사이트 <br /> 수강신청</span>
                         
                     </div>
                     
-                    <div className='flex flex-col justify-center items-center ml-2'>
+                    <div className='flex flex-col justify-center items-center '>
                         <div className='flex flex-row items-center'>
-                            <div className="rounded-full bg-white px-6 py-8 my-4 ml-4">
+                            <div className="rounded-full bg-white px-6 py-8 my-4 ml-[9px]">
                                 <div className="text-center font-appleB00 text-[#F90]">STEP 02 <br /> 수강신청</div>
                             </div>
-                            <Image src={ArrowIcon} alt="arrow" width={28} height={1} className="m-0" />
+                            <Image src={ArrowIcon} alt="arrow" width={38} height={1} className="m-0" />
 
                         </div>
-                        <span className='text-white font-appleR00 text-center'>서류 전형 및<br />사전테스트</span>
+                        <span className='text-white font-appleR00 text-center mr-[28px]'>서류 전형 및<br />사전테스트</span>
                     </div>
 
-                    <div className='flex flex-col justify-center items-center ml-2'>
+                    <div className='flex flex-col justify-center items-center '>
                         <div className='flex flex-row items-center'>
-                            <div className="rounded-full bg-white px-6 py-8  my-4 ml-4">
+                            <div className="rounded-full bg-white px-6 py-8  my-4 ml-[9px]">
                                 <div className="text-center font-appleB00 text-[#F90]">STEP 03 <br /> 수강신청</div>
                             </div>
-                            <Image src={ArrowIcon} alt="arrow" width={28} height={1} className="m-0" />
+                            <Image src={ArrowIcon} alt="arrow" width={38} height={1} className="m-0" />
 
                         </div>
-                        <span className='text-white font-appleR00 text-center'>면접전형 및 <br/> 인성검사</span>
+                        <span className='text-white font-appleR00 text-center mr-[28px]'>면접전형 및 <br/> 인성검사</span>
                     </div>
 
-                    <div className='flex flex-col justify-center items-center ml-2'>
-                        <div className="rounded-full bg-white px-6 py-8  m-4">
+                    <div className='flex flex-col justify-center items-center '>
+                        <div className="rounded-full bg-white px-6 py-8  my-4 ml-[9px]">
                             <div className="text-center font-appleB00 text-[#F90]">STEP 04 <br /> 수강신청</div>
                         </div>
-                        <span className='text-white mb-6 font-appleR00 text-center'>최종합격<br/>      </span>
+                        <span className='text-white mb-6 font-appleR00 text-center '>최종합격<br/>      </span>
                     </div>
                 </motion.div>
 
