@@ -29,9 +29,9 @@ function Section6() {
             transition: " 0.2s",
           }}
         ></span>
-        <div className="w-[736px] h-[322.76px] -md:w-auto -md:h-auto  left-0  absolute  rounded-full" />
+        <div className="w-[736px] h-[322px] -md:w-auto -md:h-auto  left-0  absolute  rounded-full" />
         <motion.img
-          className="w-[736px] h-[322.76px] -md:w-auto -md:h-auto  border-y-[1px] border-y-white"
+          className="w-[736px] h-[322px] -md:w-auto -md:h-auto  border-y-[1px] border-y-white"
           src="/section6/pic1-section6.png"
           variants={boxVariant}
           initial="initial"
