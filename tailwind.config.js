@@ -117,6 +117,7 @@ module.exports = {
         text20heightnormal: ["20px", "normal"],
         text17heightnormal: ["17px", "normal"],
         text16heightnormal: ["16px", "normal"],
+        text20height30: ["20px", "30px"],
 
         textsmall12space1dot2: ['12px', {
           lineHeight: '17px',
