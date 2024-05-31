@@ -14,10 +14,10 @@ export default function Section11() {
         <img
           loading="lazy"
           src="/section11/pic1-section11.png"
-          className="w-[42%] aspect-square object-cover"
+          className="w-[34%] max-w-[333px] aspect-square object-cover"
         />
         <motion.div
-          className="ml-5 font-appleR00 text-[#adadad] text-[25px] font-normal leading-[35px]"
+          className="w-[34%] font-appleR00 text-[#adadad] text-[25px] font-normal leading-[35px]"
           initial={{ opacity: 0, x: 100 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.4 }}
@@ -32,7 +32,7 @@ export default function Section11() {
       </div>
       <div className="mt-[55px] flex justify-around items-end">
         <motion.div
-          className="mr-5 font-appleB00 text-white text-[25px] font-normal leading-[35px]"
+          className="w-[34%] font-appleB00 text-white text-[25px] font-normal leading-[35px]"
           initial={{ opacity: 0, x: -100 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.4 }}
@@ -49,17 +49,17 @@ export default function Section11() {
         <img
           loading="lazy"
           src="/section11/pic2-section11.png"
-          className="w-[42%] aspect-square object-cover"
+          className="w-[34%] max-w-[333px] aspect-square object-cover"
         />
       </div>
       <div className="mt-[55px] flex justify-around items-end">
         <img
           loading="lazy"
           src="/section11/pic3-section11.png"
-          className="w-[42%] aspect-square object-cover"
+          className="w-[34%] max-w-[333px] aspect-square object-cover"
         />
         <motion.div
-          className="ml-5 font-appleR00 text-[#adadad] text-[25px] font-normal leading-[35px]"
+          className="w-[34%] font-appleR00 text-[#adadad] text-[25px] font-normal leading-[35px]"
           initial={{ opacity: 0, x: 100 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.4 }}
@@ -77,7 +77,7 @@ export default function Section11() {
       </div>
       <div className="mt-[55px] flex justify-around items-end">
         <motion.div
-          className="mr-5 font-appleR00 text-[#adadad] text-[25px] font-normal leading-[35px]"
+          className="w-[34%] font-appleR00 text-[#adadad] text-[25px] font-normal leading-[35px]"
           initial={{ opacity: 0, x: -100 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.4 }}
@@ -92,7 +92,7 @@ export default function Section11() {
         <img
           loading="lazy"
           src="/section11/pic4-section11.png"
-          className="w-[42%] aspect-square object-cover"
+          className="w-[34%] max-w-[333px] aspect-square object-cover"
         />
       </div>
       <div className="flex items-center justify-center pt-[154px] pb-[169px]">
