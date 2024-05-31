@@ -21,16 +21,14 @@ function Section3() {
     }
   }, [control, inView]);
   return (
-    <div className="flex flex-col justify-center items-center bg-black container mx-auto">
-      <div className="items-center justify-center flex flex-col  text-center text-[50px] -sm:text-[28px] leading-normal not-italic font-bold mb-[42px]">
-        <div className="flex flex-row">
-          <p className="text-[#FF9900] font-rokaf">
-            30여년<span className="text-white">의</span>
-          </p>
-        </div>
-        <p className="text-white font-rokaf">IT 교육 노하우로 교육 진행</p>
+    <div className="flex flex-col justify-center items-center bg-black container p-0 mx-auto">
+      <div className="items-center -sm:px-7  justify-center flex flex-col  text-center text-[50px] -sm:text-[28px] leading-normal not-italic font-bold mb-[42px]">
+        <p className="text-[#FF9900] font-rokaf ">
+          30여년<span className="text-white break-words">의</span>
+        </p>
+        <p className="text-white ">IT 교육 노하우로 교육 진행</p>
       </div>
-      <div className="w-[620px] font-appleR00 -sm:w-auto leading-[30px] -sm:leading-[23px] text-xl -sm:text-[13.5px] text-center not-italic font-normal mb-[42px]">
+      <div className="w-[620px] -sm:px-[30px] font-appleR00 -sm:w-auto leading-[30px] -sm:leading-[23px] text-xl -sm:text-[13.5px] text-center not-italic font-normal mb-[42px]">
         <span className="text-[#ADADAD]">
           ncamp(비트캠프 강남센터)는 클라우드는 물론이고 <br></br> 지난 30여년
           동안
@@ -51,17 +49,17 @@ function Section3() {
           width={736}
           height={300}
           alt=""
-          className="relative overflow-hidden"
+          className="relative overflow-hidden w-auto -sm:px-[30px]"
         ></motion.img>
       </motion.div>
-      <div className="w-[620px] font-rokaf -sm:w-auto items-center justify-center  text-center text-[50px] -sm:text-[28px]  leading-normal not-italic font-bold mb-[42px]">
+      <div className="w-[620px] -sm:px-[26px]  font-rokaf -sm:w-auto items-center justify-center  text-center text-[50px] -sm:text-[28px]  leading-normal not-italic font-bold mb-[42px]">
         <span className="text-white">업계 전문가, 교육 전문가, 30여년의</span>{" "}
         <span className="text-[#FF9900]">IT 교육 노하우</span>{" "}
         <span className="text-white">로 기획된 커리큘럼</span>
       </div>
 
       {/* description */}
-      <div className="w-[620px]  font-appleR00 -sm:w-auto h-auto leading-[30px] -sm:leading-[23px] -sm:text-[13.5px]  text-xl text-center not-italic font-normal mb-14">
+      <div className="w-[620px] -sm:px-[30px]   font-appleR00 -sm:w-auto h-auto leading-[30px] -sm:leading-[23px] -sm:text-[13.5px]  text-xl text-center not-italic font-normal mb-14">
         <span className="text-[#ADADAD]">
           이처럼 ncamp(비트캠프 강남센터)에서는 기초나 이론도 물론 중요하지만
           이를 활용하고
@@ -72,7 +70,9 @@ function Section3() {
         <span className="text-[#ADADAD]">
           은 직접 프로젝트에 활용하는 것 이라 생각해요! 그렇기에
         </span>
-        <span className="text-white -sm:text-[#ADADAD]">Java 웹 개발 프로젝트</span>{" "}
+        <span className="text-white -sm:text-[#ADADAD]">
+          Java 웹 개발 프로젝트
+        </span>{" "}
         <span className="text-[#ADADAD]">도 상당히 많이 진행 했는데요?</span>
       </div>
 
@@ -83,12 +83,12 @@ function Section3() {
           width={736}
           height={300}
           alt=""
-          className="relative overflow-hidden"
+          className="relative overflow-hidden -sm:px-[30px] w-auto"
         ></motion.img>
       </motion.div>
 
       {/* description */}
-      <div className="w-[620px] h-auto mb-[104px] leading-[30px] -sm:leading-[23px] -sm:text-[13.5px] font-appleR00 -sm:w-auto text-xl text-center not-italic font-normal">
+      <div className="w-[620px] -sm:pl-[32px] -sm:pr-[30px] h-auto mb-[104px] leading-[30px] -sm:leading-[23px] -sm:text-[13.5px] font-appleR00 -sm:w-auto text-xl text-center not-italic font-normal">
         <span className="text-[#ADADAD]">
           세월이 흔적이 느껴지는 다양한 Java 웹개발 프로젝트들을 <br />
         </span>{" "}
@@ -96,16 +96,16 @@ function Section3() {
           ncamp(비트캠프 강남센터) 홈페이지
         </span>{" "}
         <span className="text-[#ADADAD]">
-          에서도 확인 가능해요! <br /> 그리고 계속 업데이트 중이니까 다양한 웹개발
-          프로젝트 기대해주세요.
+          에서도 확인 가능해요! <br /> 그리고 계속 업데이트 중이니까 다양한
+          웹개발 프로젝트 기대해주세요.
         </span>
       </div>
 
       {/* direction bar */}
-      <div className="">
-        <button className="w-[500px] -sm:w-auto h-[76px] -md:w-[300px]  -sm:h-[42px] -md:h-[50px]  bg-[#FF9900] justify-center shrink-0 flex flex-row gap-8 -sm:gap-4  items-center rounded-full -sm:px-9">
+      <div className="w-full -sm:px-[60px] flex items-center justify-center">
+        <button className="w-[500px]  -sm:w-[266px] h-[76px] -md:w-[300px]  -sm:h-[42px] -md:h-[50px]  bg-[#FF9900] justify-center shrink-0 flex flex-row gap-8 -sm:gap-4  items-center rounded-full ">
           <p className="text-white font-appleEB00 text-center text-3xl -sm:text-base -md:text-lg font-normal not-italic">
-            수료생 프로젝트 보러가기
+          수료생 프로젝트 보러가기
           </p>
           <svg
             xmlns="http://www.w3.org/2000/svg"
