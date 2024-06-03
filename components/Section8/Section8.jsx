@@ -20,10 +20,10 @@ export default function Section8() {
           1:1 멘토링
         </div>
       </motion.div>
-      <div className="flex-1 mt-24 sm:py-20 py-6 bg-[#ff9900]">
-        <div className="flex flex-col items-start relative overflow-hidden">
+      <div className="flex flex-col items-center justify-center mt-24 sm:py-20 py-6 bg-[#ff9900]">
+        <div className="w-[90%] flex flex-col items-start relative overflow-hidden">
           <svg
-            className="w-[57%] sm:mx-[51px] mx-5"
+            className="w-[57%]"
             width="449"
             height="81"
             viewBox="0 0 449 81"
@@ -49,7 +49,7 @@ export default function Section8() {
             />
           </svg>
           <motion.div
-            className="absolute z-20 top-0 right-0 mt-[23px] sm:mx-[51px] mx-5 w-[57%] max-w-[452px] aspect-[452/273] border border-black rounded-[136px] overflow-hidden"
+            className="absolute z-20 top-[2%] right-0 w-[57%] max-w-[452px] aspect-[452/273] border border-black rounded-[136px] overflow-hidden"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.4 }}
@@ -58,13 +58,13 @@ export default function Section8() {
             <img loading="lazy" src="/section8/pic-mentor1.png" />
           </motion.div>
           <motion.div
-            className="relative mt-[59px] sm:mx-[51px] mx-5 sm:w-[69%] grow"
+            className="relative mt-[20px] sm:mt-[59px] sm:w-[69%] grow"
             initial={{ opacity: 0, x: -100 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.4 }}
             viewport={{ once: true, amount: 0.5 }}
           >
-            <div className="absolute z-10  top-0 left-0 py-[8px] px-[30px] bg-black rounded-t-[19px] font-rokaf text-[30px] text-[#ff9900] font-bold leading-normal text-center">
+            <div className="absolute z-10 top-0 left-0 py-[8px] px-[30px] bg-black rounded-t-[19px] font-rokaf text-[30px] text-[#ff9900] font-bold leading-normal text-center">
               최재석님
               <br />
               AWS과정
@@ -100,9 +100,9 @@ export default function Section8() {
             </div>
           </motion.div>
         </div>
-        <div className="flex flex-col items-end relative mt-[88px] overflow-hidden">
+        <div className="w-[90%] flex flex-col items-end relative mt-[88px] overflow-hidden">
           <svg
-            className="w-[57%] sm:mx-[51px] mx-5"
+            className="w-[57%]"
             width="449"
             height="81"
             viewBox="0 0 449 81"
@@ -128,7 +128,7 @@ export default function Section8() {
             />
           </svg>
           <motion.div
-            className="absolute z-20 top-0 left-0 mt-[23px] sm:mx-[51px] mx-5 w-[57%] max-w-[452px] aspect-[452/273] border border-black rounded-[136px] overflow-hidden"
+            className="absolute z-20 top-[2%] left-0 mt-[23px] w-[57%] max-w-[452px] aspect-[452/273] border border-black rounded-[136px] overflow-hidden"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.4 }}
@@ -137,7 +137,7 @@ export default function Section8() {
             <img loading="lazy" src="/section8/pic-mentor2.png" />
           </motion.div>
           <motion.div
-            className="relative mt-[59px] sm:mx-[51px] mx-5 sm:w-[69%] grow"
+            className="relative mt-[40px] sm:mt-[59px] sm:w-[69%] grow"
             initial={{ opacity: 0, x: 100 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.4 }}
