@@ -10,7 +10,7 @@ export default function Section11() {
         <br />
         <span className="text-[#ff9900]">시작</span>이 될 수 있도록
       </div>
-      <div className="mt-[49px] flex justify-around items-end">
+      <div className="mt-[49px] flex justify-around items-end overflow-hidden">
         <img
           loading="lazy"
           src="/section11/pic1-section11.png"
@@ -30,7 +30,7 @@ export default function Section11() {
           지금까지 달려왔습니다.
         </motion.div>
       </div>
-      <div className="mt-[55px] flex justify-around items-end">
+      <div className="mt-[55px] flex justify-around items-end overflow-hidden">
         <motion.div
           className="w-[34%] font-appleB00 text-white text-[25px] font-normal leading-[35px]"
           initial={{ opacity: 0, x: -100 }}
@@ -52,7 +52,7 @@ export default function Section11() {
           className="w-[34%] max-w-[333px] aspect-square object-cover"
         />
       </div>
-      <div className="mt-[55px] flex justify-around items-end">
+      <div className="mt-[55px] flex justify-around items-end overflow-hidden">
         <img
           loading="lazy"
           src="/section11/pic3-section11.png"
@@ -75,7 +75,7 @@ export default function Section11() {
           을 진행하고 있습니다.
         </motion.div>
       </div>
-      <div className="mt-[55px] flex justify-around items-end">
+      <div className="mt-[55px] flex justify-around items-end overflow-hidden">
         <motion.div
           className="w-[34%] font-appleR00 text-[#adadad] text-[25px] font-normal leading-[35px]"
           initial={{ opacity: 0, x: -100 }}
