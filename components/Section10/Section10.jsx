@@ -19,8 +19,8 @@ export default function Section10() {
             <div className="relative mt-16">
                 <Image className="w-full" src={phoneBG} />
                 <div className="w-full h-full absolute top-0 flex justify-center">
-                    <div className="w-[88%] h-[81%] absolute top-[7%] flex flex-col divide-y divide-white">
-                        <div className="grow sm:py-[50px] py-5 overflow-hidden">
+                    <div className="w-[88%] h-[88%] absolute top-[7%] flex flex-col divide-y divide-white">
+                        <div className="grow overflow-hidden">
                             <ItemReview
                                 index={0}
                                 avatar={"/section10/pic1-avatar.png"}
@@ -42,18 +42,18 @@ export default function Section10() {
                                 accName={"장OO(자바180기)"}
                                 comment={`훈련과정을 진행하면서 만족스러웠던 부분은 유영진 강사님의 수업을 배우면서 과정에 필요한 부분들을 배우고, 활용할 수 있었고, 모르는 부분의 질문들에 대해 <span style="color: #000;">친절히 알려주셨던 부분들</span>이 좋았고, 특히 혹시나 놓칠 수 있는 내용들은 <span style="color: #000;">매 수업 영상 녹화</span>를 해주시고 공유해주셔서 수업 이후에 영상들을 보며 배울 수 있어서 좋았습니다. 매니저 분들도 <span style="color: #000;">행정적인 부분에서 서포트를 적극적으로 해주셔서</span>, 어려움 없이 수료할 수 있었습니다.`} />
                         </div>
-                        <div className="flex items-center pt-[30px] sm:px-8 px-5">
-                            <div className="w-[8%] aspect-square relative sm:mr-9 mr-5">
+                        <div className="flex items-center p-[6%]">
+                            <div className="w-[13%] aspect-square relative sm:mr-9 mr-5">
                                 <div className="w-full h-[2px] bg-white absolute top-1/2" />
                                 <div className="w-[2px] h-full bg-white absolute left-1/2" />
                             </div>
                             <div className="grow flex justify-end bg-[#FFFFFF1A] border border-white rounded-full">
-                                <div className="font-appleR00 text-black text-[22px] font-normal leading-normal sm:py-6 py-4 sm:px-11 px-8 bg-white rounded-full">전송</div>
+                                <div className="font-appleR00 text-black md:text-[22px] text-[11px] font-normal leading-normal py-[6.6%]  px-[13.2%] bg-white rounded-full">전송</div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="w-full h-full absolute top-0 bg-gradient-to-b from-80% from-transparent to-[98%] to-black" />
+                <div className="w-full h-full absolute top-0 bg-gradient-to-b from-90% from-transparent to-[98%] to-black" />
             </div>
         </div>
     );
