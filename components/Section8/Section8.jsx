@@ -21,7 +21,7 @@ export default function Section8() {
         </div>
       </motion.div>
       <div className="flex flex-col items-center justify-center mt-24 sm:py-20 py-6 bg-[#ff9900]">
-        <div className="w-[90%] flex flex-col items-start relative overflow-hidden">
+        <div className="w-[90%] max-w-[692px] flex flex-col items-start relative overflow-hidden">
           <svg
             className="w-[57%]"
             width="449"
@@ -100,7 +100,7 @@ export default function Section8() {
             </div>
           </motion.div>
         </div>
-        <div className="w-[90%] flex flex-col items-end relative mt-[88px] overflow-hidden">
+        <div className="w-[90%] max-w-[692px] flex flex-col items-end relative mt-[88px] overflow-hidden">
           <svg
             className="w-[57%]"
             width="449"
